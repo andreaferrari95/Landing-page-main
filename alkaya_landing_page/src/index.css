@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root {
+  --alkaya-blue: #80E1FF;
+  --alkaya-red: #ffffff;
+  --alkaya-pink: #FFAFFC;
+  --alkaya-yellow: #FFE380;
+  --alkaya-green: #5BFFA5;
+  --alkaya-grey: #F5F5F5;
+  --alkaya-white: #ffffff;
+  --alkaya-black: #181D24;
+
+}
+
+
+* {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background: #f5f5f5;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn {
+  background: var(--alkaya-blue);
+  color: var(--alkaya-white);
+  padding: 14px 25px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
