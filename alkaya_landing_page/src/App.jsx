@@ -16,6 +16,10 @@ export const App = () => {
       <ProductsCategory />
       <div className="container">
         <About />
+        <Title
+          subTitle="Buy alkaya products from one of our Partners"
+          title="Where to buy"
+        />
       </div>
     </div>
   );
