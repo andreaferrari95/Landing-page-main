@@ -10,7 +10,7 @@ export const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title />
+        <Title subTitle="Our products by category" title="Discover alkaya." />
       </div>
       <ProductsCategory />
     </div>

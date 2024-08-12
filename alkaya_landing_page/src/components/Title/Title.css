@@ -1,4 +1,14 @@
 .title {
     text-align: center;
-    color: var();
+    color: var(--alkaya-black);
+    font-weight: 600;
+    margin: 70px 30px;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    margin-top: 5px;
+    text-transform: none;
+
 }

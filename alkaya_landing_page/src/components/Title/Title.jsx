@@ -1,10 +1,11 @@
 import React from "react";
+import "./Title.css";
 
-export const Title = () => {
+export const Title = ({ subTitle, title }) => {
   return (
     <div className="title">
-      <h2>Discover alkaya.</h2>
-      <p>Our products by category</p>
+      <p>{subTitle}</p>
+      <h2>{title}</h2>
     </div>
   );
 };
