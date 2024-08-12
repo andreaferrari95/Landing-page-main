@@ -8,9 +8,7 @@ export const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <div className="container">
-        <ProductsCategory />
-      </div>
+      <ProductsCategory />
     </div>
   );
 };
