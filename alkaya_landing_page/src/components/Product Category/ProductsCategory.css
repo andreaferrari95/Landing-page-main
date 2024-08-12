@@ -1,0 +1,17 @@
+.product-category {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prod-cat img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.prod-cat {
+    flex-basis: 31%;
+}

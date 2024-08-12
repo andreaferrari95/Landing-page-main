@@ -10,8 +10,14 @@ export const ProductsCategory = () => {
     <div className="product-category">
       <div className="prod-cat">
         <img src={catEenergy} alt="" />
+      </div>
+      <div className="prod-cat">
         <img src={catProtection} alt="" />
+      </div>
+      <div className="prod-cat">
         <img src={catAudio} alt="" />
+      </div>
+      <div className="prod-cat">
         <img src={catGadgets} alt="" />
       </div>
     </div>
