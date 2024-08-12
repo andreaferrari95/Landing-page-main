@@ -30,8 +30,10 @@ export const Navbar = () => {
           <button className="btn">Contacts</button>
         </li>
       </ul>
+
       {languages.map((language) => (
         <button
+          className="btn-lang"
           onClick={() => i18n.changeLanguage(language.code)}
           key={language.code}
         >
