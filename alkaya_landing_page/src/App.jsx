@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import ProductsCategory from "./components/Product Category/ProductsCategory";
 import Title from "./components/Title/Title";
+import About from "./components/About/About";
 
 export const App = () => {
   return (
@@ -13,6 +14,9 @@ export const App = () => {
         <Title subTitle="Our products by category" title="Discover alkaya." />
       </div>
       <ProductsCategory />
+      <div className="container">
+        <About />
+      </div>
     </div>
   );
 };
