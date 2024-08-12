@@ -14,10 +14,10 @@ i18n
           whoWeAre: "Who we are",
         },
       },
-    },
-    de: {
-      translation: {
-        whoWeAre: "Über Uns",
+      de: {
+        translation: {
+          whoWeAre: "Über Uns",
+        },
       },
     },
   });
