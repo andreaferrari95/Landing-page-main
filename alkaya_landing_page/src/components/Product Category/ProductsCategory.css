@@ -8,8 +8,9 @@
 
 .prod-cat img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 25px;
     display: block;
+    transition: 0.4s;
 }
 
 .prod-cat {
@@ -19,7 +20,7 @@
 }
 
 .caption {
-    border-radius: 20px;
+    border-radius: 40px;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,8 +32,16 @@
     justify-content: center;
     cursor: pointer;
     opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
 }
 
 .prod-cat:hover .caption {
     opacity: 1;
+    padding-top: 0;
+    scale: 1.1;
+}
+
+.prod-cat:hover img {
+    scale: 1.1;
 }
