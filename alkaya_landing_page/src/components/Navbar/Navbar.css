@@ -24,4 +24,13 @@ nav ul li {
     transition: 0.5s;
 }
 
-.btn-lang {}
+.flag {
+    max-width: 25px;
+
+}
+
+.btn-lang {
+    background: none;
+    border: none;
+    margin: 5px;
+}

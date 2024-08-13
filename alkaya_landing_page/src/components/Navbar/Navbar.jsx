@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/img/logo.png";
 import { useTranslation } from "react-i18next";
+import germanflg from "../../assets/img/germany.png";
+import englishflg from "../../assets/img/united-kingdom.png";
 
 export const Navbar = () => {
   const { t, i18n } = useTranslation();
   const languages = [
-    { code: "en", name: "English" },
-    { code: "de", name: "Deutch" },
+    { code: "en", name: "English", img: englishflg },
+    { code: "de", name: "Deutch", img: germanflg },
   ];
   const [sticky, setSticky] = useState(false);
 
@@ -37,7 +39,7 @@ export const Navbar = () => {
             onClick={() => i18n.changeLanguage(language.code)}
             key={language.code}
           >
-            {language.name}
+            <img src={language.img} alt="" className="flag" />
           </button>
         ))}
       </div>
