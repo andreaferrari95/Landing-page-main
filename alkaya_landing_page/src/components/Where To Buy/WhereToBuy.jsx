@@ -1,10 +1,10 @@
 import React from "react";
 import "./WhereToBuy.css";
 import otto from "../../assets/img/Where to Buy/Otto.png";
-import ebay from "../../assets/img/Where to Buy/eBay.png.png";
+import ebay from "../../assets/img/Where to Buy/eBay.png";
 import amazon from "../../assets/img/Where to Buy/amazon.png";
 import kaufland from "../../assets/img/Where to Buy/Kaufland.png";
-import etzy from "../../assets/img/Where to Buy/etzy.png";
+import etzy from "../../assets/img/Where to Buy/etsy.png";
 
 export const WhereToBuy = () => {
   return (

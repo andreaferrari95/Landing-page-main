@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import ProductsCategory from "./components/Product Category/ProductsCategory";
 import Title from "./components/Title/Title";
 import About from "./components/About/About";
+import WhereToBuy from "./components/Where To Buy/WhereToBuy";
 import "../src/utils/i18n";
 
 export const App = () => {
@@ -22,6 +23,7 @@ export const App = () => {
           title="Where to buy"
         />
       </div>
+      <WhereToBuy />
     </div>
   );
 };
