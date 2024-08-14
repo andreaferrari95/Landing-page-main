@@ -2,10 +2,10 @@ import React, { useRef } from "react";
 import "./Testimonials.css";
 import nextIcon from "../../assets/img/next-icon.png";
 import backIcon from "../../assets/img/back-icon.png";
-import user1 from "../../assets/img/user-1.jpg";
-import user2 from "../../assets/img/user-2.jpg";
-import user3 from "../../assets/img/user-3.jpg";
-import user4 from "../../assets/img/user-4.jpg";
+import user1 from "../../assets/img/user-1.png";
+import user2 from "../../assets/img/user-2.png";
+import user3 from "../../assets/img/user-3.png";
+import user4 from "../../assets/img/user-4.png";
 
 export const Testimonials = () => {
   const slider = useRef();
