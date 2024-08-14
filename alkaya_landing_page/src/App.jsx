@@ -5,6 +5,7 @@ import ProductsCategory from "./components/Product Category/ProductsCategory";
 import Title from "./components/Title/Title";
 import About from "./components/About/About";
 import WhereToBuy from "./components/Where To Buy/WhereToBuy";
+import Testimonials from "./components/Testimonials/Testimonials";
 import "../src/utils/i18n";
 
 export const App = () => {
@@ -26,6 +27,7 @@ export const App = () => {
       <WhereToBuy />
       <div className="container">
         <Title subTitle="What customers says" title="Testimonials" />
+        <Testimonials />
       </div>
     </div>
   );
