@@ -24,6 +24,9 @@ export const App = () => {
         />
       </div>
       <WhereToBuy />
+      <div className="container">
+        <Title subTitle="What customers says" title="Testimonials" />
+      </div>
     </div>
   );
 };
