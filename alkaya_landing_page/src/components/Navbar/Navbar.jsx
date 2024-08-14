@@ -5,6 +5,7 @@ import logoWhite from "../../assets/img/logo-white.png";
 import { useTranslation } from "react-i18next";
 import germanflg from "../../assets/img/germany.png";
 import englishflg from "../../assets/img/united-kingdom.png";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -40,9 +41,11 @@ export const Navbar = () => {
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
         <li>{t("whoWeAre")}</li>
-        <li>Our Products</li>
+        <li>{t("ourProducts")}</li>
         <li>Where to Buy</li>
-        <li>B2B</li>
+        <li>
+          <Link to="/b2b">B2B</Link>
+        </li>
         <li>Follow Us</li>
         <li>
           <button className="btn">Contacts</button>
