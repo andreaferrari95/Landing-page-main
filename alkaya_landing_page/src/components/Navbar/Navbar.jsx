@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/img/logo.png";
+import logoWhite from "../../assets/img/logo-white.png";
 import { useTranslation } from "react-i18next";
 import germanflg from "../../assets/img/germany.png";
 import englishflg from "../../assets/img/united-kingdom.png";
@@ -12,16 +13,31 @@ export const Navbar = () => {
     { code: "de", name: "Deutch", img: germanflg },
   ];
   const [sticky, setSticky] = useState(false);
+  const [logoDark, setLogo] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      window.scrollY > 50 ? setSticky(true) : setSticky(false);
-    });
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 50) {
+        setSticky(true);
+        setLogo(true); // Show white logo on scroll
+      } else {
+        setSticky(false);
+        setLogo(false); // Show dark logo initially
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="" className="logo" />
+      <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
         <li>{t("whoWeAre")}</li>
         <li>Our Products</li>

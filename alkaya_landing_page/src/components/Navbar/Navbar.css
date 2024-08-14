@@ -34,3 +34,8 @@ nav ul li {
     border: none;
     margin: 5px;
 }
+
+.logo {
+    max-width: 150px;
+    transition: 2s;
+}
