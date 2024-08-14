@@ -1,7 +1,12 @@
 import React from "react";
+import { Navbar } from "../components/Navbar/Navbar";
 
-export const gadgets = () => {
-  return <div>gadgets</div>;
+export const Gadgets = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
-export default gadgets;
+export default Gadgets;

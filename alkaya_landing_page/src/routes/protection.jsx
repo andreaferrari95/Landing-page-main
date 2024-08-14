@@ -1,7 +1,12 @@
 import React from "react";
+import { Navbar } from "../components/Navbar/Navbar";
 
-export const protection = () => {
-  return <div>protection</div>;
+export const Protection = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
-export default protection;
+export default Protection;

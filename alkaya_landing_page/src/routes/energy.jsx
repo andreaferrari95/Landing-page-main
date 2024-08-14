@@ -1,7 +1,12 @@
 import React from "react";
+import { Navbar } from "../components/Navbar/Navbar";
 
-export const energy = () => {
-  return <div>energy</div>;
+export const Energy = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
-export default energy;
+export default Energy;

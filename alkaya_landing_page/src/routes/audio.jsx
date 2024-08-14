@@ -1,7 +1,11 @@
 import React from "react";
-
-export const audio = () => {
-  return <div>audio</div>;
+import { Navbar } from "../components/Navbar/Navbar";
+export const Audio = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
-export default audio;
+export default Audio;
