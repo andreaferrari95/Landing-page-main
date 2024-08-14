@@ -28,6 +28,7 @@ export const App = () => {
       <div className="container">
         <Title subTitle="What customers says" title="Testimonials" />
         <Testimonials />
+        <Title subTitle="What customers says" title="Testimonials" />
       </div>
     </div>
   );
