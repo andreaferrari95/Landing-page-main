@@ -1,7 +1,12 @@
 import React from "react";
+import { Navbar } from "../components/Navbar/Navbar";
 
 export const B2B = () => {
-  return <div>B2B</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default B2B;
