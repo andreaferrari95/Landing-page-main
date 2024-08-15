@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProductsCategory.css";
 import catEenergy from "../../assets/img/energy.png";
 import catProtection from "../../assets/img/protection.png";

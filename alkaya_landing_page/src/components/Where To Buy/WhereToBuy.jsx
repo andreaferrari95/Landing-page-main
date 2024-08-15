@@ -1,4 +1,3 @@
-import React from "react";
 import "./WhereToBuy.css";
 import otto from "../../assets/img/Where to Buy/Otto.png";
 import ebay from "../../assets/img/Where to Buy/eBay.png";

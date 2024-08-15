@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import aboutLeft from "../../assets/img/about-left.jpg";
 import playIcon from "../../assets/img/play-icon.png";
@@ -19,9 +18,9 @@ export const About = () => {
           </strong>
           We're not just a brand; we're a vibe. We are the solution maker for
           those who value both function and design. Our mission is simple -
-          <strong>''Gadgets on point''. </strong>We care so our clients can
-          enjoy and rely on us, we deliver what they need, nothing less, just on
-          the dot!
+          <strong>"Gadgets on point". </strong>We care so our clients can enjoy
+          and rely on us, we deliver what they need, nothing less, just on the
+          dot!
         </p>
         <p>
           <strong>
