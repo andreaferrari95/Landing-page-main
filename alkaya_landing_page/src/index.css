@@ -5,7 +5,7 @@
   --alkaya-red: #ffffff;
   --alkaya-pink: #FFAFFC;
   --alkaya-yellow: #FFE380;
-  --alkaya-green: #5BFFA5;
+  --alkaya-green: #90ccaa;
   --alkaya-grey: #F5F5F5;
   --alkaya-white: #ffffff;
   --alkaya-black: #181D24;
@@ -19,6 +19,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+
 }
 
 body {

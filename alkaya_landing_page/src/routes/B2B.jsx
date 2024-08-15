@@ -7,5 +7,4 @@ export const B2B = () => {
     </div>
   );
 };
-
 export default B2B;

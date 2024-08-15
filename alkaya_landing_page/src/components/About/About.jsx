@@ -16,11 +16,11 @@ export const About = () => {
             Our smartphone accessories, perfectly priced, offer exceptional
             quality and a modern, eye-catching design.
           </strong>
-          We're not just a brand; we're a vibe. We are the solution maker for
-          those who value both function and design. Our mission is simple -
-          <strong>"Gadgets on point". </strong>We care so our clients can enjoy
-          and rely on us, we deliver what they need, nothing less, just on the
-          dot!
+          We&apos;re not just a brand; we&apos;re a vibe. We are the solution
+          maker for those who value both function and design. Our mission is
+          simple -<strong>&quot;Gadgets on point&quot;. </strong>We care so our
+          clients can enjoy and rely on us, we deliver what they need, nothing
+          less, just on the dot!
         </p>
         <p>
           <strong>
