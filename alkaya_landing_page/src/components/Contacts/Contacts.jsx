@@ -4,6 +4,7 @@ import messageImg from "../../assets/img/message.svg";
 import phoneImg from "../../assets/img/phone.svg";
 import locationImg from "../../assets/img/location.svg";
 import clockImg from "../../assets/img/clock.svg";
+import whiteArrow from "../../assets/img/arrow-white.svg";
 
 export const Contacts = () => {
   return (
@@ -52,7 +53,15 @@ export const Contacts = () => {
             required
           />
           <label>Write your message Here</label>
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <button type="submit" className="btn dark-btn">
+            Submit now <img src={whiteArrow} alt="" className="white-arrow" />
+          </button>
         </form>
       </div>
     </div>
