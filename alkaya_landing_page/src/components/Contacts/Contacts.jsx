@@ -35,7 +35,26 @@ export const Contacts = () => {
           </li>
         </ul>
       </div>
-      <div className="contact-col"></div>
+      <div className="contact-col">
+        <form>
+          <label>Your Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Entre your name"
+            required
+          />
+          <label>Phone Number</label>
+          <input
+            type="text"
+            name="phone"
+            placeholder="Entre your mobile number"
+            required
+          />
+          <label>Write your message Here</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </form>
+      </div>
     </div>
   );
 };
