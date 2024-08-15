@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./Testimonials.css";
+import { useTranslation } from "react-i18next";
 import nextIcon from "../../assets/img/next-icon.png";
 import backIcon from "../../assets/img/back-icon.png";
 import user1 from "../../assets/img/user-1.png";
@@ -8,6 +9,7 @@ import user3 from "../../assets/img/user-3.png";
 import user4 from "../../assets/img/user-4.png";
 
 export const Testimonials = () => {
+  const { t } = useTranslation();
   const slider = useRef();
   let tx = 0;
 
@@ -37,22 +39,11 @@ export const Testimonials = () => {
                   <img src={user1} alt="" />
                 </div>
                 <div>
-                  <h3>Andrea Ferrari</h3>
-                  <span>Bonn, Germany</span>
+                  <h3>Andrea</h3>
+                  <span>{t("span1")}</span>
                 </div>
               </div>
-              <p>
-                I have many other powerbanks, but the alkaya. one went over my
-                expectations. It's just so good not having to worry about
-                carrying a cable for every device I want to charge and for
-                charging the powerbank too. This powerbank has a USB C,
-                lightning, a USB A cable and a wireless charging area all
-                integrated. You can charge multiple devices at once without
-                carrying cables with you. It also has extra ports if needed. The
-                build quality is top notch and the price is well under other
-                brands that offer the same quality. Really happy with my
-                purchase!
-              </p>
+              <p>{t("testimonial1")}</p>
             </div>
           </li>
           <li>
@@ -62,22 +53,11 @@ export const Testimonials = () => {
                   <img src={user2} alt="" />
                 </div>
                 <div>
-                  <h3>Andrea Ferrari</h3>
-                  <span>Bonn, Germany</span>
+                  <h3>Maria</h3>
+                  <span>{t("span3")}</span>
                 </div>
               </div>
-              <p>
-                I have many other powerbanks, but the alkaya. one went over my
-                expectations. It's just so good not having to worry about
-                carrying a cable for every device I want to charge and for
-                charging the powerbank too. This powerbank has a USB C,
-                lightning, a USB A cable and a wireless charging area all
-                integrated. You can charge multiple devices at once without
-                carrying cables with you. It also has extra ports if needed. The
-                build quality is top notch and the price is well under other
-                brands that offer the same quality. Really happy with my
-                purchase!
-              </p>
+              <p>{t("testimonial3")}</p>
             </div>
           </li>
           <li>
@@ -87,22 +67,11 @@ export const Testimonials = () => {
                   <img src={user3} alt="" />
                 </div>
                 <div>
-                  <h3>Andrea Ferrari</h3>
-                  <span>Bonn, Germany</span>
+                  <h3>Walid</h3>
+                  <span>{t("span2")}</span>
                 </div>
               </div>
-              <p>
-                I have many other powerbanks, but the alkaya. one went over my
-                expectations. It's just so good not having to worry about
-                carrying a cable for every device I want to charge and for
-                charging the powerbank too. This powerbank has a USB C,
-                lightning, a USB A cable and a wireless charging area all
-                integrated. You can charge multiple devices at once without
-                carrying cables with you. It also has extra ports if needed. The
-                build quality is top notch and the price is well under other
-                brands that offer the same quality. Really happy with my
-                purchase!
-              </p>
+              <p>{t("testimonial2")}</p>
             </div>
           </li>
           <li>
@@ -112,22 +81,11 @@ export const Testimonials = () => {
                   <img src={user4} alt="" />
                 </div>
                 <div>
-                  <h3>Andrea Ferrari</h3>
-                  <span>Bonn, Germany</span>
+                  <h3>Frank</h3>
+                  <span>{t("span4")}</span>
                 </div>
               </div>
-              <p>
-                I have many other powerbanks, but the alkaya. one went over my
-                expectations. It's just so good not having to worry about
-                carrying a cable for every device I want to charge and for
-                charging the powerbank too. This powerbank has a USB C,
-                lightning, a USB A cable and a wireless charging area all
-                integrated. You can charge multiple devices at once without
-                carrying cables with you. It also has extra ports if needed. The
-                build quality is top notch and the price is well under other
-                brands that offer the same quality. Really happy with my
-                purchase!
-              </p>
+              <p>{t("testimonial4")}</p>
             </div>
           </li>
         </ul>

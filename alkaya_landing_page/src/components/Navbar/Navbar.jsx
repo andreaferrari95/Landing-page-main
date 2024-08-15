@@ -40,15 +40,17 @@ export const Navbar = () => {
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
         <li>{t("whoWeAre")}</li>
         <li>{t("ourProducts")}</li>
-        <li>Where to Buy</li>
+        <li>{t("whereToBuy")}</li>
         <li>
           <Link to="/b2b">B2B</Link>
         </li>
-        <li>Follow Us</li>
         <li>
-          <button className="btn">Contacts</button>
+          <button className="btn">{t("contacts")}</button>
         </li>
       </ul>
       <div>

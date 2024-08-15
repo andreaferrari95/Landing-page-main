@@ -6,6 +6,7 @@ import Title from "./components/Title/Title";
 import About from "./components/About/About";
 import WhereToBuy from "./components/Where To Buy/WhereToBuy";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 import "../src/utils/i18n";
 
 export const App = () => {
@@ -30,6 +31,7 @@ export const App = () => {
         <Testimonials />
         <Title subTitle="What customers says" title="Testimonials" />
       </div>
+      <Footer />
     </div>
   );
 };
