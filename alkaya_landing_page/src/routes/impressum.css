@@ -1,0 +1,25 @@
+.impressum {
+    min-height: 100vh;
+}
+
+.impressum-data {
+    margin-top: 8rem;
+}
+
+.impressum-data h3,
+.address-data h3 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.impressum-data h4,
+.address-data h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.impressum-data p,
+.address-data p {
+    margin-bottom: .5rem;
+}

@@ -1,5 +1,6 @@
 import { NavbarProducts } from "../components/Navbar-Products/NavbarProducts";
 import Footer from "../components/Footer/Footer";
+import "./routes.css";
 
 export const Datenschutz = () => {
   return (

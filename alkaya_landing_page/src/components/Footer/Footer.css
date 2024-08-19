@@ -2,3 +2,9 @@
     background: #212ea0;
     color: var(--alkaya-white);
 }
+
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}

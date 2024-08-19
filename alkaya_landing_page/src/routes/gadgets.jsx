@@ -1,6 +1,7 @@
 import { NavbarProducts } from "../components/Navbar-Products/NavbarProducts";
 import Footer from "../components/Footer/Footer";
 import GadgetsImg from "../assets/img/Gadgets-img.png";
+import "./routes.css";
 
 export const Gadgets = () => {
   return (
