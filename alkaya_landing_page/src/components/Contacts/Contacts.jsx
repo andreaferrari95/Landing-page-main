@@ -63,7 +63,7 @@ export const Contacts = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label>Your Name</label>
+          <label>Your Name*</label>
           <input
             type="text"
             name="name"

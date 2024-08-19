@@ -5,6 +5,9 @@ import Audio from "./routes/Audio.jsx";
 import Gadgets from "./routes/Gadgets.jsx";
 import B2B from "./routes/B2B.jsx";
 import Protection from "./routes/Protection.jsx";
+import Agb from "./routes/Agb.jsx";
+import Impressum from "./routes/Impressum.jsx";
+import Datenschutz from "./routes/Datenschutz.jsx";
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -13,4 +16,7 @@ export const router = createBrowserRouter([
   { path: "/audio", element: <Audio /> },
   { path: "/gadgets", element: <Gadgets /> },
   { path: "/b2b", element: <B2B /> },
+  { path: "/agb", element: <Agb /> },
+  { path: "/impressum", element: <Impressum /> },
+  { path: "/datenschutz", element: <Datenschutz /> },
 ]);
