@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import "../src/utils/i18n";
 
 export const App = () => {
+  console.log(import.meta.env.VITE_EMAIL_API_KEY);
   return (
     <div>
       <Navbar />

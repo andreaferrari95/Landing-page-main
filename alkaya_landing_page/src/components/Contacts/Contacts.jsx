@@ -9,13 +9,12 @@ import whiteArrow from "../../assets/img/arrow-white.svg";
 
 export const Contacts = () => {
   const [result, setResult] = React.useState("");
-
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", process.env.VITE_REACT_APP_EMAIL_API_KEY);
+    formData.append("access_key", import.meta.env.VITE_EMAIL_API_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
