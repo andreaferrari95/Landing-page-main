@@ -1,4 +1,5 @@
 import "./Contacts.css";
+import React from "react";
 import emailImg from "../../assets/img/email.svg";
 import messageImg from "../../assets/img/message.svg";
 import phoneImg from "../../assets/img/phone.svg";
@@ -7,6 +8,31 @@ import clockImg from "../../assets/img/clock.svg";
 import whiteArrow from "../../assets/img/arrow-white.svg";
 
 export const Contacts = () => {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", process.env.VITE_REACT_APP_EMAIL_API_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div className="contact">
       <div className="contact-col">
@@ -37,7 +63,7 @@ export const Contacts = () => {
         </ul>
       </div>
       <div className="contact-col">
-        <form>
+        <form onSubmit={onSubmit}>
           <label>Your Name</label>
           <input
             type="text"
@@ -63,6 +89,7 @@ export const Contacts = () => {
             Submit now <img src={whiteArrow} alt="" className="white-arrow" />
           </button>
         </form>
+        <span>{result}</span>
       </div>
     </div>
   );
