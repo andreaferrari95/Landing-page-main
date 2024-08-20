@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export const ProductsCategory = () => {
   return (
-    <div className="product-category">
+    <div className="product-category" id="products">
       <div className="prod-cat">
         <img src={catEenergy} alt="" />
         <div className="caption">

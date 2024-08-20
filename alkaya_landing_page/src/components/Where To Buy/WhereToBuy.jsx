@@ -7,7 +7,7 @@ import etzy from "../../assets/img/Where to Buy/etsy.png";
 
 export const WhereToBuy = () => {
   return (
-    <div className="wtb-category">
+    <div className="wtb-category" id="wheretobuy">
       <div className="wtb-cat">
         <img src={otto} alt="" />
         <div className="caption">

@@ -21,11 +21,15 @@ export const NavbarProducts = () => {
           <Link to="/">Home</Link>
         </li>
 
-        <li>{t("ourProducts")}</li>
+        <Link to="/#products">
+          <li>{t("ourProducts")}</li>
+        </Link>
         <Link to="/#about-id">
           <li>{t("whoWeAre")}</li>
         </Link>
-        <li>{t("whereToBuy")}</li>
+        <Link to="/#wheretobuy">
+          <li>{t("whereToBuy")}</li>
+        </Link>
         <li>
           <Link to="/b2b">B2B</Link>
         </li>
