@@ -33,7 +33,7 @@ export const Contacts = () => {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact-id">
       <div className="contact-col">
         <h3>
           Contact Us <img src={messageImg} alt="" />

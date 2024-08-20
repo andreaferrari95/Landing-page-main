@@ -30,7 +30,9 @@ export const NavbarProducts = () => {
           <Link to="/b2b">B2B</Link>
         </li>
         <li>
-          <button className="btn">{t("contacts")}</button>
+          <Link to="/#contact-id">
+            <button className="btn">{t("contacts")}</button>
+          </Link>
         </li>
       </ul>
       <div>
