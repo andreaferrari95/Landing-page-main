@@ -48,3 +48,21 @@ a {
   outline: 0;
   cursor: pointer;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--alkaya-blue);
+  border-radius: 10px;
+}
