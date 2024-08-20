@@ -8,10 +8,12 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 import "../src/utils/i18n";
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 
 export const App = () => {
   return (
     <div>
+      <ScrollToHashElement behavior="smooth" inline="start" block="start" />
       <Navbar />
       <Hero />
       <div className="container">

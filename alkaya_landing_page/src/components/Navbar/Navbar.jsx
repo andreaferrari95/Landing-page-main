@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import germanflg from "../../assets/img/germany.png";
 import englishflg from "../../assets/img/united-kingdom.png";
 import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
 export const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -41,16 +42,30 @@ export const Navbar = () => {
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <LinkRoll to="hero" smooth={true}>
+            Home
+          </LinkRoll>
         </li>
-        <li>{t("whoWeAre")}</li>
-        <li>{t("ourProducts")}</li>
-        <li>{t("whereToBuy")}</li>
+        <LinkRoll to="product-category" smooth={true} offset={-350}>
+          <li>{t("ourProducts")}</li>
+        </LinkRoll>
+        <li>
+          <LinkRoll to="about" smooth={true} offset={-110}>
+            {" "}
+            {t("whoWeAre")}
+          </LinkRoll>
+        </li>
+
+        <LinkRoll to="wtb-category" smooth={true} offset={-350}>
+          <li>{t("whereToBuy")}</li>
+        </LinkRoll>
         <li>
           <Link to="/b2b">B2B</Link>
         </li>
         <li>
-          <button className="btn">{t("contacts")}</button>
+          <LinkRoll to="contact" smooth={true} offset={-50}>
+            <button className="btn">{t("contacts")}</button>
+          </LinkRoll>
         </li>
       </ul>
       <div>

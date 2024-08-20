@@ -20,8 +20,11 @@ export const NavbarProducts = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>{t("whoWeAre")}</li>
+
         <li>{t("ourProducts")}</li>
+        <Link to="/#about-id">
+          <li>{t("whoWeAre")}</li>
+        </Link>
         <li>{t("whereToBuy")}</li>
         <li>
           <Link to="/b2b">B2B</Link>
