@@ -1,10 +1,22 @@
 .footer {
     background: #212ea0;
     color: var(--alkaya-white);
-}
-
-.footer {
     position: static;
     bottom: 0;
     width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    list-style: none;
+
 }
