@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/logo-white.png";
 import logoWhite from "../../assets/img/logo-white.png";
 import { useTranslation } from "react-i18next";
 import germanflg from "../../assets/img/germany.png";

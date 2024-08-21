@@ -1,0 +1,27 @@
+.B2B {
+    margin-top: 70px;
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(48, 45, 63, 0.721), rgba(48, 45, 63, 0.721)), url('../assets/img/B2B_Banner.png');
+    background-size: cover;
+    background-position: center;
+    color: var(--alkaya-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b2b-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.b2b-text h1 {
+    font-size: 3rem;
+}
+
+.b2b-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
