@@ -1,7 +1,7 @@
 .hero {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(48, 45, 63, 0.7), rgba(48, 45, 63, 0.7)), url('../../assets/img/Hero1.png');
+    min-height: 80vh;
+    background: linear-gradient(rgba(48, 45, 63, 0.721), rgba(48, 45, 63, 0.721)), url('../../assets/img/Hero2.png');
     background-size: cover;
     background-position: center;
     color: var(--alkaya-white);

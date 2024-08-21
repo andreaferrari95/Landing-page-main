@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { Link as LinkRoll } from "react-scroll";
 const Hero = () => {
   return (
     <div className="hero container">
@@ -9,7 +10,9 @@ const Hero = () => {
           accessories, perfectly priced, offer exceptional quality and a modern,
           eye-catching design.
         </p>
-        <button className="btn">Learn more</button>
+        <LinkRoll to="about" smooth={true} offset={-110}>
+          <button className="btn">Learn more</button>
+        </LinkRoll>
       </div>
     </div>
   );

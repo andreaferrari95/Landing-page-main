@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import WhereToBuy from "./components/Where To Buy/WhereToBuy";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contacts from "./components/Contacts/Contacts";
+import FindUsInStore from "./components/Find Us in Store/FindUsInStore";
 import Footer from "./components/Footer/Footer";
 import "../src/utils/i18n";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
@@ -31,6 +32,11 @@ export const App = () => {
       <div className="container">
         <Title subTitle="What customers says" title="Testimonials" />
         <Testimonials />
+        <Title
+          subTitle="Stores selling alkaya products"
+          title="Where to find out products"
+        />
+        <FindUsInStore />
         <Title subTitle="Contact Us" title="Get In Touch" />
         <Contacts />
       </div>
