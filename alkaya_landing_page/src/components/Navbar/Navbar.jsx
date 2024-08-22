@@ -38,7 +38,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
+    <nav className={`container main-nav ${sticky ? "dark-nav" : ""}`}>
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
         <li>
@@ -71,7 +71,7 @@ export const Navbar = () => {
       <div>
         {languages.map((language) => (
           <button
-            className="btn-lang"
+            className="btn-lang-main"
             onClick={() => i18n.changeLanguage(language.code)}
             key={language.code}
           >
