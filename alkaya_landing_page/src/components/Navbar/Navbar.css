@@ -39,3 +39,15 @@ nav ul li {
     max-width: 150px;
     transition: 2s;
 }
+
+/* Media queries responsivness */
+
+@media (max-width: 1050px) {
+    .logo {
+        width: 140px;
+    }
+
+    nav ul li {
+        margin: 2px 10px;
+    }
+}

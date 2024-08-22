@@ -66,3 +66,16 @@ a {
   background: var(--alkaya-blue);
   border-radius: 10px;
 }
+
+/* Media queries responsivness */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 12px 15px;
+  }
+}
