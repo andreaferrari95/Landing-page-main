@@ -4,7 +4,7 @@ import { Link as LinkRoll } from "react-scroll";
 
 import "./B2B.css";
 
-export const B2B = () => {
+export const B2b = () => {
   return (
     <div>
       <NavbarProducts />
@@ -25,5 +25,4 @@ export const B2B = () => {
     </div>
   );
 };
-
-export default B2B;
+export default B2b;
