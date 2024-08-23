@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/img/logo-white.png";
+import menuIcon from "../../assets/img/menu.svg";
 import logoWhite from "../../assets/img/logo-white.png";
 import { useTranslation } from "react-i18next";
 import germanflg from "../../assets/img/germany.png";
@@ -42,6 +43,9 @@ export const Navbar = () => {
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
       <ul>
         <li>
+          <img src={menuIcon} alt="" className="menu-icon" />
+        </li>
+        <li>
           <LinkRoll to="hero" smooth={true}>
             Home
           </LinkRoll>
@@ -67,18 +71,19 @@ export const Navbar = () => {
             <button className="btn">{t("contacts")}</button>
           </LinkRoll>
         </li>
+        <li>
+          {" "}
+          {languages.map((language) => (
+            <button
+              className="btn-lang-main"
+              onClick={() => i18n.changeLanguage(language.code)}
+              key={language.code}
+            >
+              <img src={language.img} alt="" className="flag" />
+            </button>
+          ))}
+        </li>
       </ul>
-      <div>
-        {languages.map((language) => (
-          <button
-            className="btn-lang-main"
-            onClick={() => i18n.changeLanguage(language.code)}
-            key={language.code}
-          >
-            <img src={language.img} alt="" className="flag" />
-          </button>
-        ))}
-      </div>
     </nav>
   );
 };
