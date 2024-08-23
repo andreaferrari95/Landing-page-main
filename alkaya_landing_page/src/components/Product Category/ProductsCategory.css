@@ -45,3 +45,23 @@
 .prod-cat:hover img {
     scale: 1.1;
 }
+
+/*--------media queries -----------*/
+
+@media(max-width: 900px) {
+    .product-category {
+
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .prod-cat {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 650px) {
+    .product-category {
+        flex-direction: column;
+    }
+}
