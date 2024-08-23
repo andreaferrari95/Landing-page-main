@@ -17,6 +17,10 @@ export const Navbar = () => {
   ];
   const [sticky, setSticky] = useState(false);
   const [logoDark, setLogo] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const toggleMenu = () => {
+    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,10 +45,7 @@ export const Navbar = () => {
   return (
     <nav className={`container main-nav ${sticky ? "dark-nav" : ""}`}>
       <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
-      <ul>
-        <li>
-          <img src={menuIcon} alt="" className="menu-icon" />
-        </li>
+      <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <LinkRoll to="hero" smooth={true}>
             Home
@@ -84,6 +85,7 @@ export const Navbar = () => {
           ))}
         </li>
       </ul>
+      <img src={menuIcon} alt="" className="menu-icon" onClick={toggleMenu} />
     </nav>
   );
 };

@@ -99,10 +99,15 @@
         padding: 15px 0;
     }
 
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .main-nav ul {
         position: fixed;
         top: 0;
-        right: 0;
+        right: 0px;
         bottom: 0;
         background: #212ea0;
         z-index: -1;
@@ -121,8 +126,10 @@
         display: block;
         width: 30px;
         cursor: pointer;
+    }
 
-
+    .main-nav ul.hide-mobile-menu {
+        right: -200px;
     }
 
 }
