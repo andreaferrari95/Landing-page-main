@@ -45,3 +45,22 @@
 .wtb-cat:hover img {
     scale: 1.1;
 }
+
+
+@media(max-width: 900px) {
+    .wtb-category {
+
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .wtb-cat {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 650px) {
+    .wtb-category {
+        flex-direction: column;
+    }
+}
