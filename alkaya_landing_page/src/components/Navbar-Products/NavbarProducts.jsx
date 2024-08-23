@@ -14,7 +14,7 @@ export const NavbarProducts = () => {
   ];
 
   return (
-    <nav className="container dark-nav">
+    <nav className="prod-nav container dark-nav">
       <img src={logoWhite} alt="Logo" className="logo" />
       <ul>
         <li>
@@ -42,7 +42,7 @@ export const NavbarProducts = () => {
       <div>
         {languages.map((language) => (
           <button
-            className="btn-lang"
+            className="prod-btn-lang"
             onClick={() => i18n.changeLanguage(language.code)}
             key={language.code}
           >

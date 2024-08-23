@@ -51,7 +51,7 @@
 
 /* Media queries responsivness */
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .logo {
         width: 120px;
     }
@@ -94,7 +94,7 @@
 
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .main-nav {
         padding: 15px 0;
     }
