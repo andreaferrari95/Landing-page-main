@@ -9,6 +9,7 @@
 .about-left {
     flex-basis: 40%;
     position: relative;
+    cursor: pointer;
 }
 
 .about-right {

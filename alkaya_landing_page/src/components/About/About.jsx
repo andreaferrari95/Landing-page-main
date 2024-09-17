@@ -3,11 +3,18 @@ import aboutLeft from "../../assets/img/about-left.jpg";
 {
   /*import playIcon from "../../assets/img/play-icon.png";*/
 }
-export const About = () => {
+export const About = ({ setPlayState }) => {
   return (
     <div className="about" id="about-id">
       <div className="about-left">
-        <img src={aboutLeft} alt="" className="about-img" />
+        <img
+          src={aboutLeft}
+          alt=""
+          className="about-img"
+          onClick={() => {
+            setPlayState(true);
+          }}
+        />
         {/*<img src={playIcon} alt="" className="play-icon" />*/}
       </div>
 

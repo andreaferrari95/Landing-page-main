@@ -10,8 +10,11 @@ import FindUsInStore from "./components/Find Us in Store/FindUsInStore";
 import Footer from "./components/Footer/Footer";
 import "../src/utils/i18n";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
+import { useState } from "react";
 
 export const App = () => {
+  const [playState, setPlayState] = useState(false);
   return (
     <div>
       <ScrollToHashElement behavior="smooth" inline="start" block="start" />
@@ -22,7 +25,7 @@ export const App = () => {
       </div>
       <ProductsCategory />
       <div className="container">
-        <About />
+        <About setPlayState={setPlayState} />
         <Title
           subTitle="Buy alkaya products from one of our Partners"
           title="Where to buy"
@@ -40,7 +43,10 @@ export const App = () => {
         <Title subTitle="Contact Us" title="Get In Touch" />
         <Contacts />
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
+      <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </div>
   );
 };
