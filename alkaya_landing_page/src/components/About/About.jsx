@@ -1,12 +1,14 @@
 import "./About.css";
 import aboutLeft from "../../assets/img/about-left.jpg";
-import playIcon from "../../assets/img/play-icon.png";
+{
+  /*import playIcon from "../../assets/img/play-icon.png";*/
+}
 export const About = () => {
   return (
     <div className="about" id="about-id">
       <div className="about-left">
         <img src={aboutLeft} alt="" className="about-img" />
-        <img src={playIcon} alt="" className="play-icon" />
+        {/*<img src={playIcon} alt="" className="play-icon" />*/}
       </div>
 
       <div className="about-right">
