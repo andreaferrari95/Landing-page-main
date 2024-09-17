@@ -18,6 +18,13 @@ i18n
           whereToBuy: "Where to Buy",
           contacts: "Contacts",
 
+          //About
+
+          aboutAlkaya: "About alkaya.",
+          h2About: "We take the ordinary and make it extraordinary.",
+          strong1:
+            "Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design. ",
+
           //Testimonials
           span1: "Purchased from Amazon",
           testimonial1:
@@ -40,6 +47,13 @@ i18n
           ourProducts: "Unsere Produkte",
           whereToBuy: "Wo kaufen",
           contacts: "Kontakte",
+
+          //About
+
+          aboutAlkaya: "Über alkaya.",
+          h2About: "Wir machen das Gewöhnliche zu etwas Außergewöhnlichem.",
+          strong1:
+            "Unser Smartphone-Zubehör zu einem perfekten Preis bietet außergewöhnliche Qualität und ein modernes, auffälliges Design. ",
 
           //Testimonials
           span1: "Gekauft bei Amazon",

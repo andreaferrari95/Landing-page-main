@@ -1,9 +1,11 @@
 import "./About.css";
 import aboutLeft from "../../assets/img/about-left.jpg";
+import { useTranslation } from "react-i18next";
 {
   /*import playIcon from "../../assets/img/play-icon.png";*/
 }
 export const About = ({ setPlayState }) => {
+  const { t } = useTranslation();
   return (
     <div className="about" id="about-id">
       <div className="about-left">
@@ -19,13 +21,10 @@ export const About = ({ setPlayState }) => {
       </div>
 
       <div className="about-right">
-        <h3>About alkaya.</h3>
-        <h2>We take the ordinary and make it extraordinary.</h2>
+        <h3>{t("aboutAlkaya")}</h3>
+        <h2>{t("h2About")}</h2>
         <p>
-          <strong>
-            Our smartphone accessories, perfectly priced, offer exceptional
-            quality and a modern, eye-catching design.
-          </strong>
+          <strong>{t("strong1")}</strong>
           We&apos;re not just a brand; we&apos;re a vibe. We are the solution
           maker for those who value both function and design. Our mission is
           simple -<strong>&quot;Gadgets on point&quot;. </strong>We care so our
