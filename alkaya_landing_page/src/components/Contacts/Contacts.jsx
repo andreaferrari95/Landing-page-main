@@ -77,6 +77,13 @@ export const Contacts = () => {
             placeholder="Entre your mobile number"
             required
           />
+          <label>Your Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email id"
+            required=""
+          ></input>
           <label>Write your message Here</label>
           <textarea
             name="message"
