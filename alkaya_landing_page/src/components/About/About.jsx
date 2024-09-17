@@ -8,6 +8,7 @@ export const About = () => {
         <img src={aboutLeft} alt="" className="about-img" />
         <img src={playIcon} alt="" className="play-icon" />
       </div>
+
       <div className="about-right">
         <h3>About alkaya.</h3>
         <h2>We take the ordinary and make it extraordinary.</h2>
