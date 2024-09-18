@@ -17,16 +17,20 @@ i18n
           ourProducts: "Our Products",
           whereToBuy: "Where to Buy",
           contacts: "Contacts",
+          //Hero
+          heroP:
+            "We take the ordinary and make it extraordinary. Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design.",
+          learnMore: "Learn more",
 
           //Titles & subtitles
 
           subtitle1: "Our products by category",
           title1: "Discover alkaya.",
 
-          //Hero
-          heroP:
-            "We take the ordinary and make it extraordinary. Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design.",
-          learnMore: "Learn more",
+          //Product buttons
+
+          prodButton: "Discover Our Products",
+
           //About
 
           aboutAlkaya: "About alkaya.",
@@ -57,15 +61,20 @@ i18n
           whereToBuy: "Wo kaufen",
           contacts: "Kontakte",
 
+          //Hero
+          heroP:
+            "Wir nehmen das Gewöhnliche und machen es außergewöhnlich. Unser Smartphone-Zubehör zu einem perfekten Preis bietet außergewöhnliche Qualität und ein modernes, auffälliges Design.",
+          learnMore: "Mehr erfahren",
+
           //Titles & subtitles
 
           subtitle1: "Unsere Produkte nach Kategorien",
           title1: "Entdecken Sie alkaya.",
 
-          //Hero
-          heroP:
-            "Wir nehmen das Gewöhnliche und machen es außergewöhnlich. Unser Smartphone-Zubehör zu einem perfekten Preis bietet außergewöhnliche Qualität und ein modernes, auffälliges Design.",
-          learnMore: "Mehr erfahren",
+          //Product buttons
+
+          prodButton: "Entdecken Sie unsere Produkte",
+
           //About
 
           aboutAlkaya: "Über alkaya.",
