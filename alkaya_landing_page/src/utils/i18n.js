@@ -25,6 +25,14 @@ i18n
           //Titles & subtitles
           subtitle1: "Our products by category",
           title1: "Discover alkaya.",
+          subtitle2: "Buy alkaya products from one of our Partners",
+          title2: "Where to buy",
+          subtitle3: "What customers says",
+          title3: "Testimonials",
+          subtitle4: "Stores selling alkaya products",
+          title4: "Where to find out products",
+          subtitle5: "Contact Us",
+          title5: "Get In Touch",
 
           //Product buttons
           prodButton: "Discover Our Products",
@@ -81,6 +89,14 @@ i18n
 
           subtitle1: "Unsere Produkte nach Kategorien",
           title1: "Entdecken Sie alkaya.",
+          subtitle2: "Kaufen Sie alkaya Produkte von einem unserer Partner",
+          title2: "Wo zu kaufen",
+          subtitle3: "Was die Kunden sagen",
+          title3: "Testimonials",
+          subtitle4: "Läden, die Alkaya-Produkte verkaufen",
+          title4: "Wo finde ich die Produkte?",
+          subtitle5: "Kontaktieren Sie uns",
+          title5: "Kontakt aufnehmen",
 
           //Product buttons
 

@@ -28,21 +28,15 @@ export const App = () => {
       <ProductsCategory />
       <div className="container">
         <About setPlayState={setPlayState} />
-        <Title
-          subTitle="Buy alkaya products from one of our Partners"
-          title="Where to buy"
-        />
+        <Title subTitle={t("subtitle2")} title={t("title2")} />
       </div>
       <WhereToBuy />
       <div className="container">
-        <Title subTitle="What customers says" title="Testimonials" />
+        <Title subTitle={t("subtitle3")} title={t("title3")} />
         <Testimonials />
-        <Title
-          subTitle="Stores selling alkaya products"
-          title="Where to find out products"
-        />
+        <Title subTitle={t("subtitle4")} title={t("title4")} />
         <FindUsInStore />
-        <Title subTitle="Contact Us" title="Get In Touch" />
+        <Title subTitle={t("subtitle5")} title={t("title5")} />
         <Contacts />
       </div>
       <div>
