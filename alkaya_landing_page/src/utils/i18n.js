@@ -86,7 +86,7 @@ i18n
           //Contacts
           contactTitle: "Contact Us",
           contactText:
-            "Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to all our customers. ",
+            "Please use our contact form for questions, suggestions and feedback. Your opinion is important to us in order to continuously improve our service.",
           contactCountry: "Germany",
           serviceHours: "Service Hours: Monday to Friday 09:00 – 18.00",
 
@@ -221,7 +221,7 @@ i18n
           //Contacts
           contactTitle: "Kontakt",
           contactText:
-            "Bitte kontaktieren Sie uns über das Kontaktformular oder finden Sie unsere Informationen unten. Ihr Feedback, Ihre Fragen und Vorschläge sind uns sind uns wichtig, da wir uns bemühen, allen unseren Kunden einen außergewöhnlichen Kunden zu bieten. ",
+            "Nutzen Sie gerne unser Kontaktformular für Fragen, Vorschläge und Feedback. Ihre Meinung ist uns wichtig um unseren Service stetig zu verbessern.",
           contactCountry: "Deutschland",
           serviceHours: "Servicezeiten: Montag bis Freitag 09:00 - 18.00 Uhr",
 
