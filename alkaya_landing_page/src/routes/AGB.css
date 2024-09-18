@@ -1,0 +1,29 @@
+.agb-content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 6rem;
+}
+
+.agb-content h2 {
+    font-size: 1.5rem;
+}
+
+.agb-list {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.agb-sublist {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+.agb-section h4 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.agb-item {
+    margin-bottom: 10px;
+}

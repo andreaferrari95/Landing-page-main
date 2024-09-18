@@ -13,7 +13,7 @@ export const Footer = () => {
           <Link to="/agb">AGB</Link>
         </li>
         <li>
-          <Link to="datenschutz">Datenschutz</Link>
+          <Link to="/datenschutz">Datenschutz</Link>
         </li>
       </ul>
     </div>
