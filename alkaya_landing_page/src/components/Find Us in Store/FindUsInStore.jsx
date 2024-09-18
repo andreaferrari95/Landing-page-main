@@ -2,7 +2,10 @@ import { useRef } from "react";
 import "./FindUsInStore.css";
 import nextIcon from "../../assets/img/next-icon.png";
 import backIcon from "../../assets/img/back-icon.png";
-import kaufland from "../../assets/img/Where to Buy/kaufland.png";
+import edeka from "../../assets/img/Where to Buy/Logo_Edeka.png";
+import rewe from "../../assets/img/Where to Buy/Rewe_Logo.png";
+import teampoint from "../../assets/img/Where to Buy/teampoint.svg";
+import handysalon from "../../assets/img/Where to Buy/Handysalon.webp";
 
 export const FindUsInStore = () => {
   const slider = useRef();
@@ -29,22 +32,22 @@ export const FindUsInStore = () => {
         <ul ref={slider}>
           <li>
             <div className="slide-find-us">
-              <img src={kaufland} alt="" />
+              <img src={edeka} alt="" />
             </div>
           </li>
           <li>
             <div className="slide-find-us">
-              <img src={kaufland} alt="" />
+              <img src={rewe} alt="" />
             </div>
           </li>
           <li>
             <div className="slide-find-us">
-              <img src={kaufland} alt="" />
+              <img src={teampoint} alt="" />
             </div>
           </li>
           <li>
             <div className="slide-find-us">
-              <img src={kaufland} alt="" />
+              <img src={handysalon} alt="" />
             </div>
           </li>
         </ul>

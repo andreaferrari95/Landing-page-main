@@ -1,0 +1,38 @@
+.privacy-content {
+    padding: 20px;
+    margin-top: 6rem;
+
+}
+
+.privacy-list {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.privacy-sublist {
+    margin-left: 20px;
+    list-style-type: decimal;
+    margin-top: 20px;
+}
+
+.privacy-section h4 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.privacy-sublist p {
+    margin-top: 20px;
+}
+
+.privacy-item {
+    margin-top: 20px;
+}
+
+.privacy-section {
+    margin-top: 20px;
+}
+
+.privacy-section p {
+    margin: 20px 0;
+}
