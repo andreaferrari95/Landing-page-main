@@ -14,6 +14,11 @@
 
 }
 
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .prod-nav ul li {
     display: inline-block;
     list-style: none;
