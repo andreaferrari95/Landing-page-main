@@ -18,6 +18,11 @@ i18n
           whereToBuy: "Where to Buy",
           contacts: "Contacts",
 
+          //Titles & subtitles
+
+          subtitle1: "Our products by category",
+          title1: "Discover alkaya.",
+
           //Hero
           heroP:
             "We take the ordinary and make it extraordinary. Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design.",
@@ -51,6 +56,11 @@ i18n
           ourProducts: "Unsere Produkte",
           whereToBuy: "Wo kaufen",
           contacts: "Kontakte",
+
+          //Titles & subtitles
+
+          subtitle1: "Unsere Produkte nach Kategorien",
+          title1: "Entdecken Sie alkaya.",
 
           //Hero
           heroP:

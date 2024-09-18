@@ -12,8 +12,10 @@ import "../src/utils/i18n";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export const App = () => {
+  const { t } = useTranslation();
   const [playState, setPlayState] = useState(false);
   return (
     <div>
@@ -21,7 +23,7 @@ export const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle="Our products by category" title="Discover alkaya." />
+        <Title subTitle={t("subtitle1")} title={t("title1")} />
       </div>
       <ProductsCategory />
       <div className="container">
