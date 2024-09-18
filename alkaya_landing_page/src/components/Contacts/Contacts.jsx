@@ -70,21 +70,21 @@ export const Contacts = () => {
             placeholder="Entre your name"
             required
           />
-          <label>Phone Number</label>
+          <label>Phone Number*</label>
           <input
             type="text"
             name="phone"
             placeholder="Entre your mobile number"
             required
           />
-          <label>Your Email</label>
+          <label>Your Email*</label>
           <input
             type="email"
             name="email"
             placeholder="Enter your email"
             required=""
           ></input>
-          <label>Write your message Here</label>
+          <label>Write your message Here*</label>
           <textarea
             name="message"
             rows="6"

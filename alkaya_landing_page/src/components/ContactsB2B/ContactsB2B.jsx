@@ -70,28 +70,28 @@ export const ContactsB2B = () => {
             placeholder="Entre your name"
             required
           />
-          <label>Phone Number</label>
+          <label>Phone Number*</label>
           <input
             type="text"
             name="phone"
             placeholder="Entre your mobile number"
             required
           />
-          <label>Company Name</label>
+          <label>Company Name*</label>
           <input
             type="text"
             name="company-name"
             placeholder="Entre your Company name"
             required
           />
-          <label>Your Email</label>
+          <label>Your Email*</label>
           <input
             type="email"
             name="email"
             placeholder="Enter your email"
             required=""
           ></input>
-          <label>Write your message Here</label>
+          <label>Write your message Here*</label>
           <textarea
             name="message"
             rows="6"
