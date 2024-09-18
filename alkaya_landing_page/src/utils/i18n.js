@@ -78,6 +78,31 @@ i18n
           span4: "Purchased from Amazon",
           testimonial4:
             "The case is perfectly tailored to the phone and made from a very pleasant material. It feels very good.",
+
+          //Contacts
+          contactTitle: "Contact Us",
+          contactText:
+            "Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to all our customers. ",
+          contactCountry: "Germany",
+          serviceHours: "Service Hours: Monday to Friday 09:00 – 18.00",
+
+          //Form Contact
+          formNameLab: "Your Name*",
+          formNamePh: "Enter your name",
+          formPhoneLab: "Phone Number*",
+          formPhonePh: "Enter your mobile number",
+          formEmailLab: "Your Email*",
+          formEmailPh: "Enter your email",
+          formMessageLab: "Write your message Here*",
+          formMessagePh: "Enter your message",
+          formSubmit: "Submit now",
+
+          //Impressum
+
+          impressum: "Imprint",
+          kaufman: "Commercial management",
+          address: "Address:",
+          phone: "Phone Number:",
         },
       },
       de: {
@@ -151,6 +176,31 @@ i18n
           span4: "Gekauft bei Kaufland",
           testimonial4:
             "Die Hülle ist sehr perfekt für das Handy zugeschnitten und in einem sehr angenehmen Material hergestellt worden. Es fühlt sich sehr gut an.",
+
+          //Contacts
+          contactTitle: "Kontakt",
+          contactText:
+            "Bitte kontaktieren Sie uns über das Kontaktformular oder finden Sie unsere Informationen unten. Ihr Feedback, Ihre Fragen und Vorschläge sind uns sind uns wichtig, da wir uns bemühen, allen unseren Kunden einen außergewöhnlichen Kunden zu bieten. ",
+          contactCountry: "Deutschland",
+          serviceHours: "Servicezeiten: Montag bis Freitag 09:00 - 18.00 Uhr",
+
+          //Form Contact
+          formNameLab: "Ihr Name*",
+          formNamePh: "Geben Sie Ihren Namen ein",
+          formPhoneLab: "Telefonnummer*",
+          formPhonePh: "Geben Sie Ihre Handynummer ein",
+          formEmailLab: "Ihre E-Mail*",
+          formEmailPh: "Geben Sie Ihre E-Mail ein",
+          formMessageLab: "Schreiben Sie hier Ihre Nachricht*",
+          formMessagePh: "Geben Sie Ihre Nachricht ein",
+
+          formSubmit: "Jetzt einreichen",
+
+          //Impressum
+          impressum: "Impressum",
+          kaufman: "Kaufmännische Leitung",
+          address: "Lieferadresse:",
+          phone: "Telefon:",
         },
       },
     },
