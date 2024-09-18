@@ -64,6 +64,10 @@ i18n
           amazon: "Buy on amazon",
           kaufland: "Buy on Kaufland",
           etsy: "Buy on Etsy",
+          edeka: "Visit Edeka",
+          rewe: "Visit Rewe",
+          teampoint: "Visit Teampoint",
+          handysalon: "Visit Handy Salon",
 
           //Testimonials
           span1: "Purchased from Amazon",
@@ -103,6 +107,36 @@ i18n
           kaufman: "Commercial management",
           address: "Address:",
           phone: "Phone Number:",
+
+          //B2B page
+          b2bSubtitle:
+            "Become a B2B partner now and benefit from many advantages!",
+          h2B2bAbout:
+            "Become part of our network and take advantage of the numerous advantages of a B2B partnership with us. Benefit from:",
+          b2bStrong1: "Up to 60 day return policy ",
+          b2bPart1:
+            "= no risk! Whatever is left can be exchanged for new goods;",
+          b2bStrong2:
+            "Prioritized customer service for fast and efficient support;",
+          b2bPart2: "",
+          b2bStrong3:
+            "Joint marketing campaigns to increase your visibility and reach;",
+          b2bPart3: "",
+          b2bStrong4:
+            "Individual solutions tailored to your specific business needs;",
+          b2bPart4: "",
+          b2bStrong5: "Refill & maintenance service by our field service ",
+          b2bPart5: "(stress-free package)",
+          b2bStrong6: "Upgrading your shop through a uniform sales concept ",
+          b2bPart6: "(furniture and sales displays)",
+          b2bStrong7: "2 year guarantee on our products!",
+
+          b2bStrong8: "Cash back programs",
+
+          b2bStrong9: "Commission package on request ",
+          b2bPart9: "no risk, no investment",
+          b2bRegister:
+            "Register today and start your successful partnership with us!",
         },
       },
       de: {
@@ -162,6 +196,10 @@ i18n
           amazon: "Auf amazon kaufen",
           kaufland: "Bei Kaufland kaufen",
           etsy: "Auf Etsy kaufen",
+          edeka: "Edeka besuchen",
+          rewe: "Rewe besuchen",
+          teampoint: "Teampoint besuchen",
+          handysalon: "Handy Salon besuchen",
 
           //Testimonials
           span1: "Gekauft bei Amazon",
@@ -201,6 +239,35 @@ i18n
           kaufman: "Kaufmännische Leitung",
           address: "Lieferadresse:",
           phone: "Telefon:",
+
+          //B2B page
+          b2bSubtitle:
+            "Jetzt B2B-Partner werden und von vielen Vorteilen profitieren!",
+          h2B2bAbout:
+            "Werden Sie Teil unseres Netzwerks und nutzen Sie die zahlreichen Vorteile einer B2B-Partnerschaft mit uns. Profitieren Sie von:",
+          b2bStrong1: "60 Tage Rückgaberecht ",
+          b2bPart1:
+            "= Kein Risiko! Was übrig bleibt, kann gegen neue Ware umgetauscht werden;",
+          b2bStrong2: "Priorisiertem Kundenservice ",
+          b2bPart2: "für schnelle und effiziente Unterstützung",
+          b2bStrong3: "Gemeinsamen Marketingaktionen ",
+          b2bPart3: "zur Steigerung Ihrer Sichtbarkeit und Reichweite",
+          b2bStrong4: "Individuellen Lösungen, ",
+          b2bPart4:
+            "die auf Ihre spezifischen Geschäftsanforderungen zugeschnitten sind;",
+          b2bStrong5: "Auffüller & Pflege-Service durch unseren Außendienst",
+          b2bPart5: " (Stressfree Paket);",
+          b2bStrong6:
+            "Aufwertung deines Shops, durchein einheitliches Verkaufskonzept",
+          b2bPart6: " ( Möbel und Verkaufsdisplays);",
+          b2bStrong7: "2 Jahre Garantie auf Unsere Produkte!",
+
+          b2bStrong8: "Cash-Back Programme",
+
+          b2bStrong9: "Kommissionspaket auf Wunsch ",
+          b2bPart9: "= Kein Riskio, kein Investment.",
+          b2bRegister:
+            "Melden Sie sich noch heute an und starten Sie Ihre erfolgreiche Partnerschaft mit uns!",
         },
       },
     },

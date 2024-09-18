@@ -13,7 +13,10 @@ export const WhereToBuy = () => {
       <div className="wtb-cat">
         <img src={otto} alt="" />
         <div className="caption">
-          <a href="https://www.otto.de/?selektion=(und.(ist.marke.alkaya).(~.(v.1)))">
+          <a
+            href="https://www.otto.de/?selektion=(und.(ist.marke.alkaya).(~.(v.1)))"
+            target="_blank"
+          >
             <button className="btn">{t("otto")}</button>
           </a>
         </div>
@@ -21,7 +24,7 @@ export const WhereToBuy = () => {
       <div className="wtb-cat">
         <img src={ebay} alt="" />
         <div className="caption">
-          <a href="https://www.ebay.de/str/alkayaone">
+          <a href="https://www.ebay.de/str/alkayaone" target="_blank">
             <button className="btn">{t("ebay")}</button>
           </a>
         </div>
@@ -29,7 +32,10 @@ export const WhereToBuy = () => {
       <div className="wtb-cat">
         <img src={amazon} alt="" />
         <div className="caption">
-          <a href="https://www.amazon.de/stores/alkaya/page/DC39BCC9-ACA6-4C94-BFA9-AD61BCD0D8E8?ref_=ast_bln">
+          <a
+            href="https://www.amazon.de/stores/alkaya/page/DC39BCC9-ACA6-4C94-BFA9-AD61BCD0D8E8?ref_=ast_bln"
+            target="_blank"
+          >
             <button className="btn">{t("amazon")}</button>
           </a>
         </div>
@@ -37,7 +43,10 @@ export const WhereToBuy = () => {
       <div className="wtb-cat">
         <img src={kaufland} alt="" />
         <div className="caption">
-          <a href="https://www.kaufland.de/manufacturer/6929762/">
+          <a
+            href="https://www.kaufland.de/manufacturer/6929762/"
+            target="_blank"
+          >
             <button className="btn">{t("kaufland")}</button>
           </a>
         </div>

@@ -1,56 +1,46 @@
-import { useRef } from "react";
 import "./FindUsInStore.css";
-import nextIcon from "../../assets/img/next-icon.png";
-import backIcon from "../../assets/img/back-icon.png";
-import edeka from "../../assets/img/Where to Buy/Logo_Edeka.png";
-import rewe from "../../assets/img/Where to Buy/Rewe_Logo.png";
-import teampoint from "../../assets/img/Where to Buy/teampoint.svg";
-import handysalon from "../../assets/img/Where to Buy/Handysalon.webp";
+import { useTranslation } from "react-i18next";
+import edeka from "../../assets/img/Logo_Edeka.png";
+import rewe from "../../assets/img/Rewe_Logo.png";
+import teampoint from "../../assets/img/teampoint.svg";
+import handysalon from "../../assets/img/Handysalon.webp";
 
 export const FindUsInStore = () => {
-  const slider = useRef();
-  let tx = 0;
-
-  const slideForward = () => {
-    if (tx > -50) {
-      tx -= 25;
-    }
-    slider.current.style.transform = `translateX(${tx}%)`;
-  };
-  const slideBackward = () => {
-    if (tx < 0) {
-      tx += 25;
-    }
-    slider.current.style.transform = `translateX(${tx}%)`;
-  };
+  const { t } = useTranslation();
 
   return (
-    <div className="find-us-in-store">
-      <img src={nextIcon} alt="" className="next-btn" onClick={slideForward} />
-      <img src={backIcon} alt="" className="back-btn" onClick={slideBackward} />
-      <div className="slider-find-us">
-        <ul ref={slider}>
-          <li>
-            <div className="slide-find-us">
-              <img src={edeka} alt="" />
-            </div>
-          </li>
-          <li>
-            <div className="slide-find-us">
-              <img src={rewe} alt="" />
-            </div>
-          </li>
-          <li>
-            <div className="slide-find-us">
-              <img src={teampoint} alt="" />
-            </div>
-          </li>
-          <li>
-            <div className="slide-find-us">
-              <img src={handysalon} alt="" />
-            </div>
-          </li>
-        </ul>
+    <div className="wtb-category" id="wheretobuy">
+      <div className="wtb-cat">
+        <img src={edeka} alt="" />
+        <div className="caption">
+          <a href="https://www.edeka.de/marktsuche.jsp" target="_blank">
+            <button className="btn">{t("edeka")}</button>
+          </a>
+        </div>
+      </div>
+      <div className="wtb-cat">
+        <img src={rewe} alt="" />
+        <div className="caption">
+          <a href="https://www.rewe.de/marktsuche" target="_blank">
+            <button className="btn">{t("rewe")}</button>
+          </a>
+        </div>
+      </div>
+      <div className="wtb-cat">
+        <img src={teampoint} alt="" />
+        <div className="caption">
+          <a href="https://www.teampoint-koeln.de/" target="_blank">
+            <button className="btn">{t("teampoint")}</button>
+          </a>
+        </div>
+      </div>
+      <div className="wtb-cat">
+        <img src={handysalon} alt="" />
+        <div className="caption">
+          <a href="https://handysalon.com/" target="_blank">
+            <button className="btn">{t("handysalon")}</button>
+          </a>
+        </div>
       </div>
     </div>
   );
