@@ -20,7 +20,9 @@ export const NavbarProducts = () => {
 
   return (
     <nav className="prod-nav container dark-nav">
-      <img src={logoWhite} alt="Logo" className="logo" />
+      <Link to="/">
+        <img src={logoWhite} alt="Logo" className="logo" />
+      </Link>
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="/">Home</Link>

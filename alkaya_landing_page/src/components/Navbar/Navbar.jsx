@@ -44,7 +44,9 @@ export const Navbar = () => {
 
   return (
     <nav className={`container main-nav ${sticky ? "dark-nav" : ""}`}>
-      <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
+      <LinkRoll to="hero" smooth={true}>
+        <img src={logoDark ? logoWhite : logo} alt="Logo" className="logo" />
+      </LinkRoll>
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <LinkRoll to="hero" smooth={true}>
