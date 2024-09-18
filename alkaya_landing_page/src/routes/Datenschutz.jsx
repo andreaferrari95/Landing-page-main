@@ -582,7 +582,10 @@ export const Datenschutz = () => {
                 dieser Daten durch Google verhindern, indem sie das unter dem
                 folgenden Link verfügbare Browser-Plugin herunterladen und
                 installieren:{" "}
-                <a href="http://tools.google.com/dlpage/gaoptout?hl=de">
+                <a
+                  href="http://tools.google.com/dlpage/gaoptout?hl=de"
+                  className="linkdatenschutz"
+                >
                   http://tools.google.com/dlpage/gaoptout?hl=de
                 </a>
               </p>
@@ -643,7 +646,10 @@ export const Datenschutz = () => {
                 Weitere datenschutzrechtliche Informationen, unter anderem zu
                 den verwendeten Auskunfteien, entnehmen Sie bitte der
                 Datenschutzerklärung von PayPal:{" "}
-                <a href="https://www.paypal.com/de/webapps/mpp/ua/privacy-full">
+                <a
+                  href="https://www.paypal.com/de/webapps/mpp/ua/privacy-full"
+                  className="linkdatenschutz"
+                >
                   https://www.paypal.com/de/webapps/mpp/ua/privacy-full
                 </a>
               </p>
@@ -1120,12 +1126,15 @@ export const Datenschutz = () => {
                 Mouseflow jederzeit durch Setzung eines Opt-Out-Cookies
                 dauerhaft widersprechen, indem Sie das unter folgendem Link
                 verfügbare Opt-Out-Cookie herunterladen und installieren:{" "}
-                <a href="www.mouseflow.de/opt-out/">
+                <a href="www.mouseflow.de/opt-out/" className="linkdatenschutz">
                   www.mouseflow.de/opt-out/
                 </a>
                 Weitergehende Informationen und die Datenschutzbestimmungen von
                 Mouseflow können Sie hier einsehen:
-                <a href="https://mouseflow.com/privacy/">
+                <a
+                  href="https://mouseflow.com/privacy/"
+                  className="linkdatenschutz"
+                >
                   https://mouseflow.com/privacy/
                 </a>{" "}
                 Das Opt-Out-Cookie wird von Quantcast gesetzt. Soweit rechtlich

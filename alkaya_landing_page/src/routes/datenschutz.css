@@ -36,3 +36,8 @@
 .privacy-section p {
     margin: 20px 0;
 }
+
+.linkdatenschutz {
+    text-decoration: underline;
+    color: blue;
+}
