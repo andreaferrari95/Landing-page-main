@@ -100,6 +100,8 @@ i18n
           formMessageLab: "Write your message Here*",
           formMessagePh: "Enter your message",
           formSubmit: "Submit now",
+          formCompanyLab: "Company Name*",
+          formCompanyPh: "Enter your Company Name",
 
           //Impressum
 
@@ -145,7 +147,7 @@ i18n
           whoWeAre: "Über Uns",
           ourProducts: "Unsere Produkte",
           whereToBuy: "Wo kaufen",
-          contacts: "Kontakte",
+          contacts: "Kontakt",
 
           //Hero
           heroP:
@@ -157,13 +159,13 @@ i18n
           subtitle1: "Unsere Produkte nach Kategorien",
           title1: "Entdecken Sie alkaya.",
           subtitle2: "Kaufen Sie alkaya Produkte von einem unserer Partner",
-          title2: "Wo zu kaufen",
-          subtitle3: "Was die Kunden sagen",
-          title3: "Testimonials",
-          subtitle4: "Läden, die Alkaya-Produkte verkaufen",
-          title4: "Wo finde ich die Produkte?",
+          title2: "Wo Sie uns finden",
+          subtitle3: "Was unsere Kunden sagen",
+          title3: "Rezensionen",
+          subtitle4: "",
+          title4: "Stores, die Alkaya-Produkte verkaufen",
           subtitle5: "Kontaktieren Sie uns",
-          title5: "Kontakt aufnehmen",
+          title5: "",
 
           //Product buttons
 
@@ -231,6 +233,8 @@ i18n
           formEmailPh: "Geben Sie Ihre E-Mail ein",
           formMessageLab: "Schreiben Sie hier Ihre Nachricht*",
           formMessagePh: "Geben Sie Ihre Nachricht ein",
+          formCompanyLab: "Name des Unternehmens*",
+          formCompanyPh: "Geben Sie Ihren Firmennamen ein",
 
           formSubmit: "Jetzt einreichen",
 

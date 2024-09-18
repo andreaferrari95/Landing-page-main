@@ -70,12 +70,7 @@ export const Contacts = () => {
             required
           />
           <label>{t("formPhoneLab")}</label>
-          <input
-            type="text"
-            name="phone"
-            placeholder={t("formPhonePh")}
-            required
-          />
+          <input type="text" name="phone" placeholder={t("formPhonePh")} />
           <label>{t("formEmailLab")}</label>
           <input
             type="email"
