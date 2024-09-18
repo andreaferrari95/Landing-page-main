@@ -57,6 +57,14 @@ i18n
             "We have made it our mission to permeate the world of smartphone accessories with energy and style. ",
           part4:
             "We simplify things for our audience by delivering high-quality products at a reasonable price. Furthermore, our eye-catching product displays not only enhance the shopping experience but also accentuate the aesthetics of retail spaces, resulting in higher sales and satisfied customers! ",
+
+          //online shops buttons
+          otto: "Buy on Otto",
+          ebay: "Buy on ebay",
+          amazon: "Buy on amazon",
+          kaufland: "Buy on Kaufland",
+          etsy: "Buy on Etsy",
+
           //Testimonials
           span1: "Purchased from Amazon",
           testimonial1:
@@ -122,6 +130,13 @@ i18n
             "Wir haben es uns zur Aufgabe gemacht, die Welt des Smartphone-Zubehör mit Energie und Stil zu durchdringen. ",
           part4:
             "Wir vereinfachen die Dinge für unsere Kunden, indem wir ihnen hochwertige Produkte zu einem vernünftigen Preis. Außerdem verbessern unsere auffälligen Produkt nicht nur das Einkaufserlebnis, sondern heben auch die Ästhetik der die Ästhetik der Verkaufsräume, was zu höheren Umsätzen und zufriedene Kunden! ",
+
+          //online shops buttons
+          otto: "Bei Otto kaufen",
+          ebay: "Bei ebay kaufen",
+          amazon: "Auf amazon kaufen",
+          kaufland: "Bei Kaufland kaufen",
+          etsy: "Auf Etsy kaufen",
 
           //Testimonials
           span1: "Gekauft bei Amazon",
