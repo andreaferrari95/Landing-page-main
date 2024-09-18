@@ -23,21 +23,32 @@ i18n
           learnMore: "Learn more",
 
           //Titles & subtitles
-
           subtitle1: "Our products by category",
           title1: "Discover alkaya.",
 
           //Product buttons
-
           prodButton: "Discover Our Products",
 
           //About
-
           aboutAlkaya: "About alkaya.",
           h2About: "We take the ordinary and make it extraordinary.",
           strong1:
             "Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design. ",
+          part1:
+            "We are not just a brand; we are a vibe. We are the solution maker for those who value both function and design. Our mission is simple - ",
+          part2:
+            "We care so our clients can enjoy and rely on us, we deliver what they need, nothing less, just on the dot! ",
+          break1: "The Problem.",
+          strong2:
+            "The world of smartphone accessories has become an overwhelming monotonous sea of uninspired choices, offered by countless manufacturers, packaged in varying sizes and presentations, leaving consumers feeling overwhelmed. ",
+          part3:
+            "Unfortunately, these products are often poorly displayed in many retail spaces, making them appear extremely unappealing and ultimately causing customers to refrain from making purchases. ",
 
+          break2: "Our Solution.",
+          strong3:
+            "We have made it our mission to permeate the world of smartphone accessories with energy and style. ",
+          part4:
+            "We simplify things for our audience by delivering high-quality products at a reasonable price. Furthermore, our eye-catching product displays not only enhance the shopping experience but also accentuate the aesthetics of retail spaces, resulting in higher sales and satisfied customers! ",
           //Testimonials
           span1: "Purchased from Amazon",
           testimonial1:
@@ -81,6 +92,20 @@ i18n
           h2About: "Wir machen das Gewöhnliche zu etwas Außergewöhnlichem.",
           strong1:
             "Unser Smartphone-Zubehör zu einem perfekten Preis bietet außergewöhnliche Qualität und ein modernes, auffälliges Design. ",
+          part1:
+            "Wir sind nicht nur eine Marke, wir sind ein Lebensgefühl. Wir sind der Lösungsanbieter für alle, die sowohl auf Funktion als auch auf Design Wert legen. Unser Auftrag ist einfach - ",
+          part2:
+            "Wir sorgen dafür, dass unsere Kunden genießen und sich auf uns verlassen können, liefern wir das, was sie brauchen, nicht weniger, genau auf den Punkt! ",
+          break1: "Das Problem.",
+          strong2:
+            "Die Welt des Smartphone-Zubehörs ist zu einem überwältigenden, eintönigen Meer von uninspirierten Angeboten geworden, die von unzähligen zahllosen Herstellern in unterschiedlichen Größen und Aufmachungen. Verbraucher überfordert. ",
+          part3:
+            "Leider werden diese Produkte in vielen Einzelhandelsgeschäften oft schlecht präsentiert, so dass sie äußerst unattraktiv wirken und die Kunden letztendlich von einem Kauf absehen. ",
+          break2: "Unsere Lösung.",
+          strong3:
+            "Wir haben es uns zur Aufgabe gemacht, die Welt des Smartphone-Zubehör mit Energie und Stil zu durchdringen. ",
+          part4:
+            "Wir vereinfachen die Dinge für unsere Kunden, indem wir ihnen hochwertige Produkte zu einem vernünftigen Preis. Außerdem verbessern unsere auffälligen Produkt nicht nur das Einkaufserlebnis, sondern heben auch die Ästhetik der die Ästhetik der Verkaufsräume, was zu höheren Umsätzen und zufriedene Kunden! ",
 
           //Testimonials
           span1: "Gekauft bei Amazon",
