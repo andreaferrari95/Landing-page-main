@@ -1,5 +1,5 @@
 import "./B2bAbout.css";
-import aboutLeft from "../../assets/img/about-left.jpg";
+import B2baboutLeft from "../../assets/img/B2babout-left.jpg";
 import { useTranslation } from "react-i18next";
 {
   /*import playIcon from "../../assets/img/play-icon.png";*/
@@ -9,7 +9,7 @@ export const B2bAbout = () => {
   return (
     <div className="B2bAbout" id="B2bAbout-id">
       <div className="B2bAbout-left">
-        <img src={aboutLeft} alt="" className="B2bAbout-img" />
+        <img src={B2baboutLeft} alt="" className="B2bAbout-img" />
       </div>
 
       <div className="B2bAbout-right">
