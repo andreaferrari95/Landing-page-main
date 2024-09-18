@@ -76,7 +76,7 @@ export const ContactsB2B = () => {
             placeholder={t("formNamePh")}
             required
           />
-          <label>{t("formPhoneLab")}</label>
+          <label>{t("formb2bPhoneLab")}</label>
           <input
             type="text"
             name="phone"

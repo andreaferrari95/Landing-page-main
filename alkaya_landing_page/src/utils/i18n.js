@@ -16,7 +16,7 @@ i18n
           whoWeAre: "Who we are",
           ourProducts: "Our Products",
           whereToBuy: "Where to Buy",
-          contacts: "Contacts",
+          contacts: "Contact",
           //Hero
           heroP:
             "We take the ordinary and make it extraordinary. Our smartphone accessories, perfectly priced, offer exceptional quality and a modern, eye-catching design.",
@@ -93,7 +93,8 @@ i18n
           //Form Contact
           formNameLab: "Your Name*",
           formNamePh: "Enter your name",
-          formPhoneLab: "Phone Number*",
+          formPhoneLab: "Phone Number",
+          formb2bPhoneLab: "Phone Number*",
           formPhonePh: "Enter your mobile number",
           formEmailLab: "Your Email*",
           formEmailPh: "Enter your email",
@@ -227,7 +228,8 @@ i18n
           //Form Contact
           formNameLab: "Ihr Name*",
           formNamePh: "Geben Sie Ihren Namen ein",
-          formPhoneLab: "Telefonnummer*",
+          formPhoneLab: "Telefonnummer",
+          formb2bPhoneLab: "Telefonnummer*",
           formPhonePh: "Geben Sie Ihre Handynummer ein",
           formEmailLab: "Ihre E-Mail*",
           formEmailPh: "Geben Sie Ihre E-Mail ein",
