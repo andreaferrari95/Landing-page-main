@@ -1,4 +1,4 @@
-import "./Contacts.css";
+import "./ContactsB2B.css";
 import React from "react";
 import emailImg from "../../assets/img/email.svg";
 import messageImg from "../../assets/img/message.svg";
@@ -7,7 +7,7 @@ import locationImg from "../../assets/img/location.svg";
 import clockImg from "../../assets/img/clock.svg";
 import whiteArrow from "../../assets/img/arrow-white.svg";
 
-export const Contacts = () => {
+export const ContactsB2B = () => {
   const [result, setResult] = React.useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -77,6 +77,13 @@ export const Contacts = () => {
             placeholder="Entre your mobile number"
             required
           />
+          <label>Company Name</label>
+          <input
+            type="text"
+            name="company-name"
+            placeholder="Entre your Company name"
+            required
+          />
           <label>Your Email</label>
           <input
             type="email"
@@ -101,4 +108,4 @@ export const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default ContactsB2B;

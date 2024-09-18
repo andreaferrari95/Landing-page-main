@@ -1,6 +1,7 @@
 import { NavbarProducts } from "../components/Navbar-Products/NavbarProducts";
 import Footer from "../components/Footer/Footer";
 import { Link as LinkRoll } from "react-scroll";
+import ContactsB2B from "../components/ContactsB2B/ContactsB2B";
 
 import "./B2B.css";
 
@@ -21,6 +22,7 @@ export const B2b = () => {
           </LinkRoll>
         </div>
       </div>
+      <ContactsB2B />
       <Footer />
     </div>
   );
