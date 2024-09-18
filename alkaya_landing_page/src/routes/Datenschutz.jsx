@@ -587,6 +587,556 @@ export const Datenschutz = () => {
                 </a>
               </p>
             </li>
+            <li className="privacy-section">
+              <h4>H. Sonstige Weitergabe der Daten an Dritte </h4>
+              <p>
+                Im Rahmen der Ausführung der getätigten Bestellung ist es
+                notwendig, dass wir den Namen und die Anschrift des Kunden an
+                unseren Zahlungsdienstleister und an den Paketdienstleister
+                übermitteln. Die Übermittlung ist notwendig, um Ihre Zahlung
+                abschließen und Ihre Bestellung ausliefern zu können. Die
+                Übermittlung der Daten beschränkt sich hierbei auf das
+                erforderliche Minimum. Rechtsgrundlage hierfür ist Art. 6 Abs. 1
+                lit. b DSGVO.
+              </p>
+              <p>
+                Haben Sie eine Avisierung des Liefertermins durch den
+                Paketdienstleister gewünscht, wird auch Ihre E-Mail Adresse an
+                den Paketdienstleister übermittelt. Die E-Mail Adresse wird von
+                dem Paketdienstleister allein zur Avisierung des Liefertermins
+                genutzt. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a DSGVO.
+              </p>
+              <p>
+                Mit Aufgabe der Bestellung erklären Sie Ihr Einverständnis
+                damit, dass die oben beschriebenen Daten zur Zahlungsabwicklung
+                und zur Auslieferung der Ware an unsere Paketdienstleister
+                übertragen werden Hinsichtlich Ihrer Rechte gelten die in diesem
+                und den nachfolgenden Abschnitten aufgeführten Bestimmungen
+                entsprechend.{" "}
+              </p>
+              <p>
+                Bei Inanspruchnahme der Zahlungsart „paypal“ geben wir Ihren
+                Namen, Ihre E-Mail Adresse, Ihre Anschrift und die
+                Zahlungsinformationen ihres Einkaufs an die Paypal (Europe)
+                S.a.r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449
+                Luxembourg (nachfolgend "PayPal") weiter. Die Weitergabe erfolgt
+                gemäß Art. 6 Abs. 1 lit. b DSGVO und nur insoweit, als dies für
+                die Zahlungsabwicklung erforderlich ist.
+              </p>
+              <p>
+                Bei Zahlung per paypal-Rechnung oder Ratenzahlung führt PayPal
+                führt einen Risk-Check durch und entscheidet, ob eine Zahlung
+                mittels der von Ihnen ausgewählten Zahlungsquelle möglich ist.
+                Hierfür werden Ihre Zahlungsdaten gegebenenfalls gemäß Art. 6
+                Abs. 1 lit. f DSGVO auf Basis des berechtigten Interesses von
+                PayPal an der Feststellung Ihrer Zahlungsfähigkeit an
+                Auskunfteien weitergegeben. Das Ergebnis der Bonitätsprüfung in
+                Bezug auf die statistische Zahlungsausfallwahrscheinlichkeit
+                verwendet PayPal zum Zwecke der Entscheidung über die
+                Bereitstellung der jeweiligen Zahlungsmethode. Die
+                Bonitätsauskunft kann Wahrscheinlichkeitswerte enthalten (sog.
+                Score-Werte). Soweit Score-Werte in das Ergebnis der
+                Bonitätsauskunft einfließen, haben diese ihre Grundlage in einem
+                wissenschaftlich anerkannten mathematisch-statistischen
+                Verfahren. In die Berechnung der Score-Werte fließen unter
+                anderem, aber nicht ausschließlich, Anschriftendaten ein.
+                Weitere datenschutzrechtliche Informationen, unter anderem zu
+                den verwendeten Auskunfteien, entnehmen Sie bitte der
+                Datenschutzerklärung von PayPal:{" "}
+                <a href="https://www.paypal.com/de/webapps/mpp/ua/privacy-full">
+                  https://www.paypal.com/de/webapps/mpp/ua/privacy-full
+                </a>
+              </p>
+              <p>
+                Sie können dieser Verarbeitung Ihrer Daten jederzeit durch eine
+                Nachricht an PayPal widersprechen. Jedoch bleibt PayPal ggf.
+                weiterhin berechtigt, Ihre personenbezogenen Daten zu
+                verarbeiten, sofern dies zur vertragsgemäßen Zahlungsabwicklung
+                erforderlich ist.
+              </p>
+            </li>
+            <li className="privacy-section">
+              <h4> I. Rechte der betroffenen Person </h4>
+              <p>
+                Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie
+                Betroffener i.S.d. DS-GVO und es stehen Ihnen folgende Rechte
+                gegenüber uns („dem Verantwortlichen“) zu:
+              </p>
+              <ol>
+                <li>
+                  <p>
+                    <strong>Auskunftsrecht</strong>
+                  </p>
+                  <p>
+                    Sie können eine Bestätigung darüber verlangen, ob
+                    personenbezogene Daten, die Sie betreffen, von uns
+                    verarbeitet werden.{" "}
+                  </p>
+                  <p>
+                    Liegt eine solche Verarbeitung vor, können Sie von uns über
+                    folgende Informationen Auskunft verlangen:
+                  </p>
+                  <ul>
+                    <li>
+                      <strong>a.</strong> die Zwecke, zu denen die
+                      personenbezogenen Daten verarbeitet werden;
+                    </li>
+                    <li>
+                      <strong>b.</strong> die Kategorien von personenbezogenen
+                      Daten, welche verarbeitet werden;
+                    </li>
+                    <li>
+                      <strong>c.</strong> die Empfänger bzw. die Kategorien von
+                      Empfängern, gegenüber denen die Sie betreffenden
+                      personenbezogenen Daten offen gelegt wurden oder noch
+                      offen gelegt werden;
+                    </li>
+                    <li>
+                      <strong>d.</strong> die geplante Dauer der Speicherung der
+                      Sie betreffenden personenbezogenen Daten oder, falls
+                      konkrete Angaben hierzu nicht möglich sind, Kriterien für
+                      die Festlegung der Speicherdauer;
+                    </li>
+                    <li>
+                      <strong>e.</strong> das Bestehen eines Rechts auf
+                      Berichtigung oder Löschung der Sie betreffenden
+                      personenbezogenen Daten, eines Rechts auf Einschränkung
+                      der Verarbeitung durch uns oder eines Widerspruchsrechts
+                      gegen diese Verarbeitung;{" "}
+                    </li>
+                    <li>
+                      <strong>f.</strong> das Bestehen eines Beschwerderechts
+                      bei einer Aufsichtsbehörde;
+                    </li>
+                    <li>
+                      <strong>g.</strong> alle verfügbaren Informationen über
+                      die Herkunft der Daten, wenn die personenbezogenen Daten
+                      nicht bei der betroffenen Person erhoben werden;
+                    </li>
+                    <li>
+                      <strong>h.</strong> das Bestehen einer automatisierten
+                      Entscheidungsfindung einschließlich Profiling gemäß Art.
+                      22 Abs. 1 und 4 DS-GVO und – zumindest in diesen Fällen –
+                      aussagekräftige Informationen über die involvierte Logik
+                      sowie die Tragweite und die angestrebten Auswirkungen
+                      einer derartigen Verarbeitung für die betroffene Person.
+                    </li>
+                  </ul>
+                  <p>
+                    Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob
+                    die Sie betreffenden personenbezogenen Daten in ein
+                    Drittland oder an eine internationale Organisation
+                    übermittelt werden. In diesem Zusammenhang können Sie
+                    verlangen, über die geeigneten Garantien gem. Art. 46 DS-GVO
+                    im Zusammenhang mit der Übermittlung unterrichtet zu werden.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Recht auf Berichtigung </strong>
+                  </p>
+                  <p>
+                    Sie haben ein Recht auf Berichtigung und/oder
+                    Vervollständigung, sofern die verarbeiteten
+                    personenbezogenen Daten, die Sie betreffen, unrichtig oder
+                    unvollständig sind. Die Berichtigung ist von uns
+                    unverzüglich vorzunehmen.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Recht auf Löschung</strong>
+                  </p>
+                  <p>
+                    3.1) Sie können von uns verlangen, dass die Sie betreffenden
+                    personenbezogenen Daten unverzüglich gelöscht werden, und
+                    wir sind verpflichtet, diese Daten unverzüglich zu löschen,
+                    sofern einer der folgenden Gründe zutrifft:
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <strong>a.</strong> Die Sie betreffenden
+                        personenbezogenen Daten sind für die Zwecke, für die sie
+                        erhoben oder auf sonstige Weise verarbeitet wurden,
+                        nicht mehr notwendig.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>b.</strong> Sie widerrufen Ihre Einwilligung,
+                        auf die sich die Verarbeitung gem. Art. 6 Abs. 1 lit. a
+                        oder Art. 9 Abs. 2 lit. a DS-GVO stützte, und es fehlt
+                        an einer anderweitigen Rechtsgrundlage für die
+                        Verarbeitung.{" "}
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>c.</strong> Sie legen gem. Art. 21 Abs. 1 DS-GVO
+                        Widerspruch gegen die Verarbeitung ein und es liegen
+                        keine vorrangigen berechtigten Gründe für die
+                        Verarbeitung vor, oder die Sie legen gem. Art. 21 Abs. 2
+                        DS-GVO Widerspruch gegen die Verarbeitung ein.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>d.</strong> Die Sie betreffenden
+                        personenbezogenen Daten wurden unrechtmäßig verarbeitet.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>e.</strong> Die Löschung der Sie betreffenden
+                        personenbezogenen Daten ist zur Erfüllung einer
+                        rechtlichen Verpflichtung nach dem Unionsrecht oder dem
+                        Recht der Bundesrepublik Deutschland erforderlich.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>f.</strong> Die Sie betreffenden
+                        personenbezogenen Daten wurden in Bezug auf angebotene
+                        Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1
+                        DS-GVO erhoben.
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    3.2) Haben wir die Sie betreffenden personenbezogenen Daten
+                    öffentlich gemacht und sind wir gem. Art. 17 Abs. 1 DS-GVO
+                    zu deren Löschung verpflichtet, so treffen wir unter
+                    Berücksichtigung der verfügbaren Technologie und der
+                    Implementierungskosten angemessene Maßnahmen, auch
+                    technischer Art, um für die Datenverarbeitung
+                    Verantwortliche, die die personenbezogenen Daten
+                    verarbeiten, darüber zu informieren, dass Sie als betroffene
+                    Person von ihnen die Löschung aller Links zu diesen
+                    personenbezogenen Daten oder von Kopien oder Replikationen
+                    dieser personenbezogenen Daten verlangt haben.{" "}
+                  </p>
+                  <p>
+                    3.3) Das Recht auf Löschung besteht nicht, soweit die
+                    Verarbeitung erforderlich ist:
+                  </p>
+                  <ul>
+                    <li>
+                      {" "}
+                      <p>
+                        <strong>a.</strong> Zur Ausübung des Rechts auf freie
+                        Meinungsäußerung und Information;
+                      </p>
+                    </li>
+                    <li>
+                      {" "}
+                      <p>
+                        <strong>b.</strong> Zur Erfüllung einer rechtlichen
+                        Verpflichtung, die die Verarbeitung nach dem Recht der
+                        Union oder der Bundesrepublik Deutschland erfordert,
+                        oder zur Wahrnehmung einer Aufgabe, die im öffentlichen
+                        Interesse liegt;
+                      </p>
+                    </li>
+                    <li>
+                      {" "}
+                      <p>
+                        <strong>c.</strong> Aus Gründen des öffentlichen
+                        Interesses im Bereich der öffentlichen Gesundheit gemäß
+                        Art. 9 Abs. 2 lit. h und i sowie Art. 9 Ab. 3 DS-GVO;
+                      </p>
+                    </li>
+                    <li>
+                      {" "}
+                      <p>
+                        <strong>d.</strong> für im öffentlichen Interesse
+                        liegende Archivzwecke, wissenschaftliche oder
+                        historische Forschungszwecke oder für statistische
+                        Zwecke gem. Art. 89 Abs. 1 DS-GVO, soweit das in Abs. 1
+                        genannte Recht voraussichtlich die Verwirklichung der
+                        Ziele dieser Verarbeitung unmöglich macht oder ernsthaft
+                        beeinträchtigt, oder
+                      </p>
+                    </li>
+                    <li>
+                      {" "}
+                      <p>
+                        <strong>e.</strong> zur Geltendmachung, Ausübung oder
+                        Verteidigung von Rechtsansprüchen.
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>
+                    <strong>Recht auf Einschränkung der Verarbeitung</strong>
+                  </p>
+                  <p>
+                    Unter den folgenden Voraussetzungen können Sie die
+                    Einschränkung der Verarbeitung der Sie betreffenden
+                    personenbezogenen Daten verlangen:
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <strong>a.</strong> Wenn Sie die Richtigkeit der Sie
+                        betreffenden personenbezogenen für eine Dauer
+                        bestreiten, die es uns ermöglicht, die Richtigkeit der
+                        personenbezogenen Daten zu überprüfen;
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>b.</strong> Die Verarbeitung unrechtmäßig ist
+                        und Sie die Löschung der personenbezogenen Daten
+                        ablehnen und stattdessen die Einschränkung der Nutzung
+                        der personenbezogenen Daten verlangen;
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>c.</strong> Wir die personenbezogenen Daten für
+                        die Zwecke der Verarbeitung nicht länger benötigen, Sie
+                        diese jedoch zur Geltendmachung, Ausübung oder
+                        Verteidigung von Rechtsansprüchen benötigen, oder
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>d.</strong> wenn Sie Widerspruch gegen die
+                        Verarbeitung gemäß Art. 21 Abs. 1 DS-GVO eingelegt haben
+                        und noch nicht feststeht, ob unsere berechtigten Gründe
+                        gegenüber Ihren Gründen überwiegen.
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    Wurde die Verarbeitung der Sie betreffenden
+                    personenbezogenen Daten eingeschränkt, dürfen diese Daten –
+                    von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung
+                    oder zur Geltendmachung, Ausübung oder Verteidigung von
+                    Rechtsansprüchen oder zum Schutz der Rechte einer anderen
+                    natürlichen oder juristischen Person oder aus Gründen eines
+                    wichtigen öffentlichen Interesses der Union oder eines
+                    Mitgliedstaats verarbeitet werden.
+                  </p>
+                  <p>
+                    Wurde die Einschränkung der Verarbeitung nach den o.g.
+                    Voraussetzungen eingeschränkt, werden Sie von uns
+                    unterrichtet, bevor die Einschränkung aufgehoben wird.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Recht auf Unterrichtung</strong>
+                  </p>
+                  <p>
+                    Haben Sie das Recht auf Berichtigung, Löschung oder
+                    Einschränkung der Verarbeitung geltend gemacht, sind wir
+                    verpflichtet, allen Empfängern, denen die Sie betreffenden
+                    personenbezogenen Daten offen gelegt wurden, diese
+                    Berichtigung oder Löschung der Daten oder Einschränkung der
+                    Verarbeitung mitzuteilen, es sei denn, dies erweist sich als
+                    unmöglich oder ist mit einem unverhältnismäßigen Aufwand
+                    verbunden.
+                  </p>
+                  <p>
+                    Ihnen steht ferner das Recht zu, über diese Empfänger
+                    unterrichtet zu werden.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Recht auf Datenübertragbarkeit</strong>
+                  </p>
+                  <p>
+                    Sie haben das das Recht, die Sie betreffenden
+                    personenbezogenen Daten, die Sie uns bereitgestellt haben,
+                    in einem strukturierten, gängigen und maschinenlesbaren
+                    Format zu erhalten. Außerdem haben Sie das Recht diese Daten
+                    einem anderen Verantwortlichen ohne Behinderung durch uns zu
+                    übermitteln, sofern
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <strong>a.</strong> die Verarbeitung auf einer
+                        Einwilligung gem. Art. 6 Abs. 1 lit. a DS-GVO oder Art.
+                        9 Abs. 2 lit. a DS-GVO oder auf einem Vertrag gem. Art.
+                        6 Abs. 1 lit. b DS-GVO beruht und
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>b.</strong> die Verarbeitung mithilfe
+                        automatisierter Verfahren erfolgt.
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    In Ausübung dieses Rechts haben Sie ferner das Recht zu
+                    erwirken, dass die Sie betreffenden personenbezogenen Daten
+                    direkt von einem Verantwortlichen einem anderen
+                    Verantwortlichen übermittelt werden, soweit dies technisch
+                    machbar ist. Freiheiten und Rechte anderer Personen dürfen
+                    hierdurch nicht beeinträchtigt werden.
+                  </p>
+                  <p>
+                    Das Recht auf Datenübertragbarkeit gilt nicht für eine
+                    Verarbeitung personenbezogener Daten, die für die
+                    Wahrnehmung einer Aufgabe erforderlich ist, die im
+                    öffentlichen Interesse liegt.{" "}
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Widerspruchsrecht</strong>
+                  </p>
+                  <p>
+                    Sie haben das Recht, aus Gründen, die sich aus ihrer
+                    besonderen Situation ergeben, jederzeit gegen die
+                    Verarbeitung der Sie betreffenden personenbezogenen Daten,
+                    die aufgrund von Art. 6 Abs. 1 lit. e oder f DS-GVO erfolgt,
+                    Widerspruch einzulegen; dies gilt auch für ein auf diese
+                    Bestimmungen gestütztes Profiling.{" "}
+                  </p>
+                  <p>
+                    Nach einem Widerspruch verarbeiten wir die Sie betreffenden
+                    personenbezogenen Daten nicht mehr, es sei denn, wir können
+                    zwingende schutzwürdige Gründe für die Verarbeitung
+                    nachweisen, die Ihren Interessen, Rechten und Freiheiten
+                    überwiegen, oder die Verarbeitung dient der Geltendmachung,
+                    Ausübung oder Verteidigung von Rechtsansprüchen.
+                  </p>
+                  <p>
+                    Werden die Sie betreffenden personenbezogenen Daten
+                    verarbeitet, um Direktwerbung zu betreiben, haben Sie das
+                    Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie
+                    betreffenden personenbezogenen Daten zum Zwecke derartiger
+                    Werbung einzulegen; dies gilt auch für das Profiling, soweit
+                    es mit solcher Direktwerbung in Verbindung steht.
+                  </p>
+                  <p>
+                    Widersprechen Sie der Verarbeitung für Zwecke der
+                    Direktwerbung, so werden die Sie betreffenden
+                    personenbezogenen Daten nicht mehr für diese Zwecke
+                    verarbeitet.
+                  </p>
+                  <p>
+                    Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung
+                    von Diensten der Informationsgesellschaft – ungeachtet der
+                    Richtlinie 2002/58/EG – Ihr Widerspruchsrecht mittels
+                    automatisierter Verfahren auszuüben, bei denen technische
+                    Spezifikationen verwendet werden.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>
+                      Recht auf Widerruf der datenschutzrechtlichen
+                      Einwilligungserklärung
+                    </strong>
+                  </p>
+                  <p>
+                    Sie haben das Recht, Ihre datenschutzrechtliche
+                    Einwilligungserklärung jederzeit zu widerrufen. Durch den
+                    Widerruf der Einwilligung wird die Rechtmäßigkeit der
+                    aufgrund der Einwilligung bis zum Widerruf erfolgten
+                    Verarbeitung nicht berührt.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>
+                      Automatisierte Entscheidung im Einzelfall einschließlich
+                      Profiling
+                    </strong>
+                  </p>
+                  <p>
+                    Sie haben das Recht, nicht einer ausschließlich auf einer
+                    automatisierten Verarbeitung – einschließlich Profiling –
+                    beruhenden Entscheidung unterworfen zu werden, die Ihnen
+                    gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher
+                    Weise erheblich beeinträchtigt. Dies gilt nicht, wenn die
+                    Entscheidung{" "}
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <strong>a. </strong>für den Abschluss oder die Erfüllung
+                        eines Vertrags zwischen Ihnen und uns erforderlich ist,
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>b. </strong>aufgrund von Rechtsvorschriften der
+                        Union oder der Bundesrepublik Deutschland zulässig ist
+                        und diese Rechtsvorschriften angemessene Maßnahmen zur
+                        Wahrung Ihrer Rechte und Freiheiten sowie Ihrer
+                        berechtigten Interessen enthalten oder
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <strong>c. </strong>mit Ihrer ausdrücklichen
+                        Einwilligung erfolgt.
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>
+                    <strong>
+                      Recht auf Beschwerde bei einer Aufsichtsbehörde
+                    </strong>
+                  </p>
+                  <p>
+                    Unbeschadet eines anderweitigen verwaltungsrechtlichen oder
+                    gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf
+                    Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem
+                    Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes
+                    oder des Orts des mutmaßlichen Verstoßes, wenn Sie der
+                    Ansicht sind, dass die Verarbeitung der Sie betreffenden
+                    personenbezogenen Daten gegen die DSGVO verstößt.{" "}
+                  </p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p>
+                <strong>Mouseflow (Mouseflow ApS)</strong>Diese Website
+                verwendet Mouseflow, ein Webanalyse-Tool der Mouseflow ApS,
+                Flaesketorvet 68, 1711 Kopenhagen, Dänemark, um zufällig
+                ausgewählte einzelne Besuche (nur mit pseudonymisierter
+                IP-Adresse) aufzuzeichnen. So entsteht ein Protokoll der
+                Mausbewegungen und Klicks mit der Absicht einzelne
+                Website-Besuche stichprobenartig abzuspielen und potenzielle
+                Verbesserungen für die Website daraus abzuleiten. Sofern hierbei
+                auch personenbezogene Daten verarbeitet werden, erfolgt dies
+                gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten
+                Interesses an der statistischen Analyse des Nutzerverhaltens zu
+                Optimierungszwecken. Die verarbeiteten Informationen werden
+                nicht an Dritte weitergegeben. Sie können der Webanalyse von
+                Mouseflow jederzeit durch Setzung eines Opt-Out-Cookies
+                dauerhaft widersprechen, indem Sie das unter folgendem Link
+                verfügbare Opt-Out-Cookie herunterladen und installieren:{" "}
+                <a href="www.mouseflow.de/opt-out/">
+                  www.mouseflow.de/opt-out/
+                </a>
+                Weitergehende Informationen und die Datenschutzbestimmungen von
+                Mouseflow können Sie hier einsehen:
+                <a href="https://mouseflow.com/privacy/">
+                  https://mouseflow.com/privacy/
+                </a>{" "}
+                Das Opt-Out-Cookie wird von Quantcast gesetzt. Soweit rechtlich
+                erforderlich, haben wir zur vorstehend dargestellten
+                Verarbeitung Ihrer Daten Ihre Einwilligung gemäß Art. 6 Abs. 1
+                lit. a DSGVO eingeholt. Sie können Ihre erteilte Einwilligung
+                jederzeit mit Wirkung für die Zukunft widerrufen. Um Ihren
+                Widerruf auszuüben, befolgen Sie bitte die vorstehend
+                geschilderte Möglichkeit zur Vornahme eines Widerspruchs.
+              </p>
+            </li>
           </ul>
         </div>
       </div>
