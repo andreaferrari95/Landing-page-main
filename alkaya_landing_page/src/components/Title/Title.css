@@ -12,3 +12,7 @@
     text-transform: none;
 
 }
+
+.title p {
+    font-size: 1.5rem;
+}

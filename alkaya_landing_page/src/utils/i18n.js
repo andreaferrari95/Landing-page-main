@@ -32,7 +32,7 @@ i18n
           subtitle4: "Stores selling alkaya products",
           title4: "Where to find out products",
           subtitle5: "Contact Us",
-          title5: "Get In Touch",
+          title5: "",
 
           //Product buttons
           prodButton: "Discover Our Products",
