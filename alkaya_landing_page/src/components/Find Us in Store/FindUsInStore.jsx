@@ -2,8 +2,8 @@ import "./FindUsInStore.css";
 import { useTranslation } from "react-i18next";
 import edeka from "../../assets/img/Logo_Edeka.png";
 import rewe from "../../assets/img/Rewe_Logo.png";
-import teampoint from "../../assets/img/teampoint.svg";
-import handysalon from "../../assets/img/Handysalon.webp";
+import teampoint from "../../assets/img/teampoint.png";
+import handysalon from "../../assets/img/Handysalon.png";
 
 export const FindUsInStore = () => {
   const { t } = useTranslation();
