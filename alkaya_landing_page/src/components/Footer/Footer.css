@@ -13,6 +13,7 @@
 }
 
 .footer ul li {
+
     display: inline-block;
     margin-left: 20px;
     padding-right: 20px;
@@ -21,7 +22,21 @@
 
 }
 
-@media(max-width: 760px) {
+.footer ul {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer ul li img {
+    display: inline-block;
+    width: 28px;
+
+
+}
+
+@media(max-width: 1010px) {
     .footer {
         display: block;
         text-align: center;
