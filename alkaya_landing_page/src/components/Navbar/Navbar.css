@@ -31,6 +31,7 @@
 
 .flag {
     max-width: 25px;
+    cursor: pointer;
 
 }
 
