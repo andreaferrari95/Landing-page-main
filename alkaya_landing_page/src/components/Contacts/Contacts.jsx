@@ -51,7 +51,7 @@ export const Contacts = () => {
           </li>
           <li>
             <img src={locationImg} alt="" />
-            alkaya-One <br /> Saime-Genc-Ring 28 <br /> 53121 Bonn{" "}
+            alkaya-One <br /> Saime-Genc-Ring 30 <br /> 53121 Bonn{" "}
             {t("contactCountry")}
           </li>
           <li>

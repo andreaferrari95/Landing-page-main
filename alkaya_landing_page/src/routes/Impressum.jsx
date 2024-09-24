@@ -14,7 +14,7 @@ export const Impressum = () => {
 
           <h4>alkaya-One </h4>
           <p>
-            Saime-Genc-Ring 28 <br />
+            Saime-Genc-Ring 30 <br />
             53121 Bonn <br />
             Germany
           </p>
@@ -28,7 +28,7 @@ export const Impressum = () => {
 
           <h4>alkaya-One</h4>
           <p>
-            Saime-Genc-Ring 28 <br />
+            Saime-Genc-Ring 30 <br />
             53121 Bonn
           </p>
           <p>{t("phone")} +49 228 50434061</p>
