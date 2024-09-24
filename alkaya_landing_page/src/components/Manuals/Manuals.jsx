@@ -32,7 +32,7 @@ export const Manuals = () => {
     <div>
       <NavbarProducts />
       <div>
-        <h2 className="title-downloads">Download our Product Manuals</h2>
+        <h2 className="title-downloads">{t("h2TitleDownload")}</h2>
       </div>
       <div className="manual-category" id="products">
         <div className="manual-cat">
@@ -40,7 +40,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={BH30001} target="_blank">
-                {t("prodButton")}
+                BH-30001-2
               </a>
             </button>
           </div>
@@ -50,7 +50,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={BH30003} target="_blank">
-                {t("prodButton")}
+                BH-30003
               </a>
             </button>
           </div>
@@ -60,7 +60,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={BH30004} target="_blank">
-                {t("prodButton")}
+                BH-30004-5
               </a>
             </button>
           </div>
@@ -70,7 +70,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={BH30006} target="_blank">
-                {t("prodButton")}
+                BH-30006-7
               </a>
             </button>
           </div>
@@ -80,7 +80,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={CR50009} target="_blank">
-                {t("prodButton")}
+                CR-50009
               </a>
             </button>
           </div>
@@ -90,7 +90,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={CR50010} target="_blank">
-                {t("prodButton")}
+                CR-50010
               </a>
             </button>
           </div>
@@ -100,7 +100,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={GT80001} target="_blank">
-                {t("prodButton")}
+                GT-80001-2
               </a>
             </button>
           </div>
@@ -110,7 +110,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={GT80007} target="_blank">
-                {t("prodButton")}
+                GT-80007-8
               </a>
             </button>
           </div>
@@ -120,7 +120,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={GT80009} target="_blank">
-                {t("prodButton")}
+                GT-80009-10
               </a>
             </button>
           </div>
@@ -130,7 +130,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={PB40002} target="_blank">
-                {t("prodButton")}
+                PB-40002-3
               </a>
             </button>
           </div>
@@ -140,7 +140,7 @@ export const Manuals = () => {
           <div className="caption">
             <button className="btn">
               <a href={PB40004} target="_blank">
-                {t("prodButton")}
+                PB-40004-5
               </a>
             </button>
           </div>

@@ -140,6 +140,9 @@ i18n
           b2bPart9: "no risk, no investment",
           b2bRegister:
             "Register today and start your successful partnership with us!",
+
+          //Manuals DOwnload page
+          h2TitleDownload: "Download our Product Manuals",
         },
       },
       de: {
@@ -274,6 +277,9 @@ i18n
           b2bPart9: "= Kein Riskio, kein Investment.",
           b2bRegister:
             "Melden Sie sich noch heute an und starten Sie Ihre erfolgreiche Partnerschaft mit uns!",
+
+          //Manuals DOwnload page
+          h2TitleDownload: "Download unserer Produkthandbücher",
         },
       },
     },
