@@ -8,6 +8,7 @@ import Protection from "./routes/Protection.jsx";
 import Agb from "./routes/Agb.jsx";
 import Impressum from "./routes/Impressum.jsx";
 import Datenschutz from "./routes/Datenschutz.jsx";
+import Manuals from "./components/Manuals/Manuals.jsx";
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -19,4 +20,5 @@ export const router = createBrowserRouter([
   { path: "/agb", element: <Agb /> },
   { path: "/impressum", element: <Impressum /> },
   { path: "/datenschutz", element: <Datenschutz /> },
+  { path: "/manuals", element: <Manuals /> },
 ]);
