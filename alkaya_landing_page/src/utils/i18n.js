@@ -182,19 +182,19 @@ i18n
           strong1:
             "Unser Smartphone-Zubehör zu einem perfekten Preis bietet außergewöhnliche Qualität und ein modernes, auffälliges Design. ",
           part1:
-            "Wir sind nicht nur eine Marke, wir sind ein Lebensgefühl. Wir sind der Lösungsanbieter für alle, die sowohl auf Funktion als auch auf Design Wert legen. Unser Auftrag ist einfach - ",
+            "Wir sind nicht nur eine Marke, wir sind ein Lebensgefühl. Wir sind der Lösungsanbieter für alle, die sowohl auf Funktion als auch auf Design Wert legen. Unsere Mission ist einfach - ",
           part2:
-            "Wir sorgen dafür, dass unsere Kunden genießen und sich auf uns verlassen können, liefern wir das, was sie brauchen, nicht weniger, genau auf den Punkt! ",
+            "Wir sorgen dafür, dass unsere Kunden unsere Produkte genießen und sich auf uns verlassen können. Wir liefern genau das, was sie brauchen, nicht weniger, genau auf den Punkt! ",
           break1: "Das Problem.",
           strong2:
-            "Die Welt des Smartphone-Zubehörs ist zu einem überwältigenden, eintönigen Meer von uninspirierten Angeboten geworden, die von unzähligen zahllosen Herstellern in unterschiedlichen Größen und Aufmachungen. Verbraucher überfordert. ",
+            "Die Welt des Smartphone-Zubehörs ist zu einem überwältigenden, eintönigen Meer von uninspirierten Angeboten geworden, die von unzähligen zahllosen Herstellern in unterschiedlichen Größen und Aufmachungen Verbraucher überfordern. ",
           part3:
-            "Leider werden diese Produkte in vielen Einzelhandelsgeschäften oft schlecht präsentiert, so dass sie äußerst unattraktiv wirken und die Kunden letztendlich von einem Kauf absehen. ",
+            "Leider werden diese Produkte in vielen Einzelhandelsgeschäften oft schlecht präsentiert, sodass sie äußerst unattraktiv wirken und die Kunden letztendlich von einem Kauf absehen. ",
           break2: "Unsere Lösung.",
           strong3:
             "Wir haben es uns zur Aufgabe gemacht, die Welt des Smartphone-Zubehör mit Energie und Stil zu durchdringen. ",
           part4:
-            "Wir vereinfachen die Dinge für unsere Kunden, indem wir ihnen hochwertige Produkte zu einem vernünftigen Preis. Außerdem verbessern unsere auffälligen Produkt nicht nur das Einkaufserlebnis, sondern heben auch die Ästhetik der die Ästhetik der Verkaufsräume, was zu höheren Umsätzen und zufriedene Kunden! ",
+            "Wir vereinfachen die Dinge für unsere Kunden, indem wir ihnen hochwertige Produkte zu einem vernünftigen Preis anbieten. Außerdem verbessern unsere auffälligen Produkte nicht nur das Einkaufserlebnis, sondern heben auch die Ästhetik der Verkaufsräume hevor, was zu höheren Umsätzen und zufriedenen Kunden führt! ",
 
           //online shops buttons
           otto: "Bei Otto kaufen",
@@ -267,9 +267,9 @@ i18n
           b2bStrong5: "Auffüller & Pflege-Service durch unseren Außendienst",
           b2bPart5: " (Stressfree Paket);",
           b2bStrong6:
-            "Aufwertung deines Shops, durchein einheitliches Verkaufskonzept",
+            "Aufwertung deines Shops, durch ein einheitliches Verkaufskonzept",
           b2bPart6: " ( Möbel und Verkaufsdisplays);",
-          b2bStrong7: "2 Jahre Garantie auf Unsere Produkte!",
+          b2bStrong7: "2 Jahre Garantie auf unsere Produkte!",
 
           b2bStrong8: "Cash-Back Programme",
 
