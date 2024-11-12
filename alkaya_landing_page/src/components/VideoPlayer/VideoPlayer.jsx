@@ -1,5 +1,6 @@
 import "./VideoPlayer.css";
-import video from "../../assets/Video/alkaya-award-small.mp4";
+import video from "../../assets/video/Video-alkaya-small.mp4";
+
 import { useRef } from "react";
 
 export const VideoPlayer = ({ playState, setPlayState }) => {
