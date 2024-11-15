@@ -20,5 +20,5 @@ export const router = createBrowserRouter([
   { path: "/agb", element: <Agb /> },
   { path: "/impressum", element: <Impressum /> },
   { path: "/datenschutz", element: <Datenschutz /> },
-  { path: "/Forgreenworld", element: <Manuals /> },
+  { path: "/forgreenworld", element: <Manuals /> },
 ]);

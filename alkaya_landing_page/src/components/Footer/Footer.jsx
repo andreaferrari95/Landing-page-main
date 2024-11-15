@@ -25,7 +25,7 @@ export const Footer = () => {
           </a>
         </li>
         <li>
-          <Link to="/Forgreenworld">Forgreenworld</Link>
+          <Link to="/forgreenworld">Support</Link>
         </li>
         <li>
           <Link to="/impressum">Impressum</Link>

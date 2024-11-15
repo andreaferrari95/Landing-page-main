@@ -1,15 +1,22 @@
+import { useTranslation } from "react-i18next";
+import { NavbarProducts } from "../Navbar-Products/NavbarProducts";
+
+import Footer from "../../components/Footer/Footer";
+
 import "../../components/Manuals/Manuals.css";
-import BH30001 from "../../assets/Manuals/BH-30001-2.pdf";
-import BH30003 from "../../assets/Manuals/BH-30003.pdf";
-import BH30004 from "../../assets/Manuals/BH-30004-5.pdf";
-import BH30006 from "../../assets/Manuals/BH-30006-7.pdf";
-import CR50009 from "../../assets/Manuals/CR-50009.pdf";
-import CR50010 from "../../assets/Manuals/CR-50010.pdf";
-import GT80001 from "../../assets/Manuals/GT-80001-2.pdf";
-import GT80007 from "../../assets/Manuals/GT-80007-8.pdf";
-import GT80009 from "../../assets/Manuals/GT-80009-10.pdf";
-import PB40002 from "../../assets/Manuals/PB-40002-3.pdf";
-import PB40004 from "../../assets/Manuals/PB-40004-5.pdf";
+
+import BH30001 from "/forgreenworld/BH-30001-2.pdf";
+import BH30003 from "/forgreenworld/BH-30003.pdf";
+import BH30004 from "/forgreenworld/BH-30004-5.pdf";
+import BH30006 from "/forgreenworld/BH-30006-7.pdf";
+import CR50009 from "/forgreenworld/CR-50009.pdf";
+import CR50010 from "/forgreenworld/CR-50010.pdf";
+import GT80001 from "/forgreenworld/GT-80001-2.pdf";
+import GT80007 from "/forgreenworld/GT-80007-8.pdf";
+import GT80009 from "/forgreenworld/GT-80009-10.pdf";
+import PB40002 from "/forgreenworld/PB-40002-3.pdf";
+import PB40004 from "/forgreenworld/PB-40004-5.pdf";
+
 import BH30001img from "../../assets/img/manual-img/BH-30001-2.jpg";
 import BH30003img from "../../assets/img/manual-img/BH-30003.jpg";
 import BH30004img from "../../assets/img/manual-img/BH-30004-5.jpg";
@@ -22,12 +29,78 @@ import GT80009img from "../../assets/img/manual-img/GT-80009-10.jpg";
 import PB40002img from "../../assets/img/manual-img/PB-40002-3.jpg";
 import PB40004img from "../../assets/img/manual-img/PB-40004-5.jpg";
 
-import { useTranslation } from "react-i18next";
-import { NavbarProducts } from "../Navbar-Products/NavbarProducts";
-import Footer from "../../components/Footer/Footer";
+const MANUALS = [
+  {
+    id: "BH30001",
+    name: "BH-30001-2",
+    pdfLink: BH30001,
+    imgSrc: BH30001img,
+  },
+  {
+    id: "BH30003",
+    name: "BH-30003",
+    pdfLink: BH30003,
+    imgSrc: BH30003img,
+  },
+  {
+    id: "BH30004",
+    name: "BH-30004-5",
+    pdfLink: BH30004,
+    imgSrc: BH30004img,
+  },
+  {
+    id: "BH30006",
+    name: "BH-30006-7",
+    pdfLink: BH30006,
+    imgSrc: BH30006img,
+  },
+  {
+    id: "CR50009",
+    name: "CR-50009",
+    pdfLink: CR50009,
+    imgSrc: CR50009img,
+  },
+  {
+    id: "CR50010",
+    name: "CR-50010",
+    pdfLink: CR50010,
+    imgSrc: CR50010img,
+  },
+  {
+    id: "GT80001",
+    name: "GT-80001-2",
+    pdfLink: GT80001,
+    imgSrc: GT80001img,
+  },
+  {
+    id: "GT80007",
+    name: "GT-80007-8",
+    pdfLink: GT80007,
+    imgSrc: GT80007img,
+  },
+  {
+    id: "GT80009",
+    name: "GT-80009-10",
+    pdfLink: GT80009,
+    imgSrc: GT80009img,
+  },
+  {
+    id: "PB40002",
+    name: "PB-40002-3",
+    pdfLink: PB40002,
+    imgSrc: PB40002img,
+  },
+  {
+    id: "PB40004",
+    name: "PB-40004-5",
+    pdfLink: PB40004,
+    imgSrc: PB40004img,
+  },
+];
 
-export const Manuals = () => {
+const Manuals = () => {
   const { t } = useTranslation();
+
   return (
     <div>
       <NavbarProducts />
@@ -35,116 +108,21 @@ export const Manuals = () => {
         <h2 className="title-downloads">{t("h2TitleDownload")}</h2>
       </div>
       <div className="manual-category" id="products">
-        <div className="manual-cat">
-          <img src={BH30001img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={BH30001} target="_blank">
-                BH-30001-2
+        {MANUALS.map((manual) => (
+          <div key={manual.id} className="manual-cat">
+            <img src={manual.imgSrc} alt={manual.name} />
+            <div className="caption">
+              <a
+                href={manual.pdfLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                {manual.name}
               </a>
-            </button>
+            </div>
           </div>
-        </div>
-        <div className="manual-cat">
-          <img src={BH30003img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={BH30003} target="_blank">
-                BH-30003
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={BH30004img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={BH30004} target="_blank">
-                BH-30004-5
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={BH30006img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={BH30006} target="_blank">
-                BH-30006-7
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={CR50009img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={CR50009} target="_blank">
-                CR-50009
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={CR50010img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={CR50010} target="_blank">
-                CR-50010
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={GT80001img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={GT80001} target="_blank">
-                GT-80001-2
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={GT80007img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={GT80007} target="_blank">
-                GT-80007-8
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={GT80009img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={GT80009} target="_blank">
-                GT-80009-10
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={PB40002img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={PB40002} target="_blank">
-                PB-40002-3
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="manual-cat">
-          <img src={PB40004img} alt="" />
-          <div className="caption">
-            <button className="btn">
-              <a href={PB40004} target="_blank">
-                PB-40004-5
-              </a>
-            </button>
-          </div>
-        </div>
+        ))}
       </div>
       <Footer />
     </div>
