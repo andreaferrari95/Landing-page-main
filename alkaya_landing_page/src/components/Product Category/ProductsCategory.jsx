@@ -21,7 +21,7 @@ export const ProductsCategory = () => {
       <div className="prod-cat">
         <img src={catProtection} alt="" />
         <div className="caption">
-          <Link to="/protection">
+          <Link to="/">
             <button className="btn">{t("prodButton")}</button>
           </Link>
         </div>
