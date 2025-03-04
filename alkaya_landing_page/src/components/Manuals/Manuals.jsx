@@ -16,6 +16,10 @@ import GT80007 from "/forgreenworld/GT-80007-8.pdf";
 import GT80009 from "/forgreenworld/GT-80009-10.pdf";
 import PB40002 from "/forgreenworld/PB-40002-3.pdf";
 import PB40004 from "/forgreenworld/PB-40004-5.pdf";
+import CR50001 from "/forgreenworld/CR-50001.pdf";
+import CR50002 from "/forgreenworld/CR-50002.pdf";
+import CR50003 from "/forgreenworld/CR-50003.pdf";
+import CR50008 from "/forgreenworld/CR-50008.pdf";
 
 import BH30001img from "../../assets/img/manual-img/BH-30001-2.jpg";
 import BH30003img from "../../assets/img/manual-img/BH-30003.jpg";
@@ -28,6 +32,10 @@ import GT80007img from "../../assets/img/manual-img/GT-80007-8.jpg";
 import GT80009img from "../../assets/img/manual-img/GT-80009-10.jpg";
 import PB40002img from "../../assets/img/manual-img/PB-40002-3.jpg";
 import PB40004img from "../../assets/img/manual-img/PB-40004-5.jpg";
+import CR50001img from "../../assets/img/manual-img/CR-50001-5.jpg";
+import CR50002img from "../../assets/img/manual-img/CR-50002-6.jpg";
+import CR50003img from "../../assets/img/manual-img/CR-50003-7.jpg";
+import CR50004img from "../../assets/img/manual-img/CR-50004-8.jpg";
 
 const MANUALS = [
   {
@@ -95,6 +103,30 @@ const MANUALS = [
     name: "PB-40004-5",
     pdfLink: PB40004,
     imgSrc: PB40004img,
+  },
+  {
+    id: "CR50001",
+    name: "CR-50001-5",
+    pdfLink: CR50001,
+    imgSrc: CR50001img,
+  },
+  {
+    id: "CR50002",
+    name: "CR-50002-6",
+    pdfLink: CR50002,
+    imgSrc: CR50002img,
+  },
+  {
+    id: "CR50003",
+    name: "CR-50003-7",
+    pdfLink: CR50003,
+    imgSrc: CR50003img,
+  },
+  {
+    id: "CR50008",
+    name: "CR-50004-8",
+    pdfLink: CR50008,
+    imgSrc: CR50004img,
   },
 ];
 
