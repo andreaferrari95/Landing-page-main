@@ -145,6 +145,8 @@ i18n
           h2TitleDownload: "Download our Product Manuals",
         },
       },
+
+      //  German
       de: {
         translation: {
           //Nav
@@ -278,7 +280,7 @@ i18n
           b2bRegister:
             "Melden Sie sich noch heute an und starten Sie Ihre erfolgreiche Partnerschaft mit uns!",
 
-          //Manuals DOwnload page
+          //Manuals Download page
           h2TitleDownload: "Download unserer Produkthandbücher",
         },
       },

@@ -2,6 +2,7 @@ import "./VideoPlayer.css";
 import video from "../../assets/video/Video-alkaya-small.mp4";
 
 import { useRef } from "react";
+import PropTypes from "prop-types";
 
 export const VideoPlayer = ({ playState, setPlayState }) => {
   const player = useRef(null);
@@ -20,6 +21,10 @@ export const VideoPlayer = ({ playState, setPlayState }) => {
       <video src={video} autoPlay muted controls></video>
     </div>
   );
+};
+VideoPlayer.propTypes = {
+  playState: PropTypes.bool.isRequired,
+  setPlayState: PropTypes.func.isRequired,
 };
 
 export default VideoPlayer;
